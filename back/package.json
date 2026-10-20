@@ -1,0 +1,12 @@
+{
+  "name": "proformas-back-dev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "test": "node test-engine.mjs"
+  },
+  "dependencies": {
+    "mysql2": "^3.24.6"
+  }
+}

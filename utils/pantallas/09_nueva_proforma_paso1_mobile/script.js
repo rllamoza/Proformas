@@ -1,0 +1,32 @@
+/* =========================================
+ * JavaScript Code & Config
+ * External Dependencies:
+ *  - https://cdn.tailwindcss.com
+ * ========================================= */
+/* Inline Script [id='tailwind-config'] */
+tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-container": "#8392b6", "outline-variant": "#c5c6cf", "on-tertiary-fixed-variant": "#5a4318", "surface-dim": "#d4dbe2", "on-primary-fixed-variant": "#384667", "on-error-container": "#93000a", "on-surface-variant": "#45464e", "on-tertiary-container": "#ac8d5b", "surface-container-highest": "#dde3eb", "on-primary-fixed": "#0a1b39", "on-secondary-container": "#5f2200", "primary": "#041533", "primary-fixed-dim": "#b7c6ed", "on-secondary-fixed-variant": "#7c2e00", "secondary": "#a23f00", "surface-container-low": "#eef4fc", "secondary-fixed-dim": "#ffb595", "primary-container": "#1b2a49", "tertiary-container": "#3b2700", "on-tertiary": "#ffffff", "surface-container": "#e8eef6", "inverse-primary": "#b7c6ed", "inverse-on-surface": "#ebf1f9", "tertiary-fixed-dim": "#e4c18b", "error": "#ba1a1a", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "tertiary": "#211400", "inverse-surface": "#2b3137", "surface": "#f6f9ff", "outline": "#75777e", "primary-fixed": "#d9e2ff", "on-surface": "#161c22", "secondary-container": "#ff752b", "surface-tint": "#505e80", "background": "#f6f9ff", "on-secondary": "#ffffff", "error-container": "#ffdad6", "on-tertiary-fixed": "#271900", "tertiary-fixed": "#ffdeab", "on-background": "#161c22", "on-secondary-fixed": "#351000", "surface-bright": "#f6f9ff", "surface-container-high": "#e3e9f1", "surface-variant": "#dde3eb", "secondary-fixed": "#ffdbcd", "on-error": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "gutter": "1.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-md": "1rem", "gutter-sm": "1rem", "margin": "2rem", "margin-mobile": "1rem", "space-sm": "0.5rem" }, "fontFamily": { "label-sm": ["Inter"], "body-lg": ["Inter"], "display-lg": ["Inter"], "body-sm": ["Inter"], "numeric-currency-md": ["Inter"], "body-md": ["Inter"], "headline-lg": ["Inter"], "headline-md": ["Inter"], "headline-lg-mobile": ["Inter"], "headline-sm": ["Inter"], "label-md": ["Inter"], "title-md": ["Inter"], "numeric-currency-lg": ["Inter"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "display-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "numeric-currency-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "500" }], "title-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "numeric-currency-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }] } } } };
+
+/* Inline Script */
+(function() {
+    const btnRUC = document.getElementById('btnRUC');
+    const btnDNI = document.getElementById('btnDNI');
+    const rucInput = document.getElementById('rucInput');
+
+    if (btnRUC && btnDNI && rucInput) {
+      btnRUC.addEventListener('click', function() {
+        btnRUC.className = 'neu-flat py-2 rounded-lg text-primary font-semibold font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all bg-surface';
+        btnDNI.className = 'py-2 rounded-lg text-on-surface-variant font-medium font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all bg-transparent';
+        rucInput.setAttribute('maxlength', '11');
+        rucInput.setAttribute('placeholder', '20XXXXXXXXX');
+        rucInput.value = '20603849182';
+      });
+
+      btnDNI.addEventListener('click', function() {
+        btnDNI.className = 'neu-flat py-2 rounded-lg text-primary font-semibold font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all bg-surface';
+        btnRUC.className = 'py-2 rounded-lg text-on-surface-variant font-medium font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all bg-transparent';
+        rucInput.setAttribute('maxlength', '8');
+        rucInput.setAttribute('placeholder', '4XXXXXXX');
+        rucInput.value = '45892147';
+      });
+    }
+  })();

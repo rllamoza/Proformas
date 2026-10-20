@@ -1,0 +1,19 @@
+{
+  "id": "cb667b94723542ba81c430ed18fe1c6b",
+  "name": "projects/6256314497810013108/screens/cb667b94723542ba81c430ed18fe1c6b",
+  "title": "Nueva Proforma: Paso 3 Servicios y Mano de Obra (Desktop) · Neumorphism",
+  "folder": "12_nueva_proforma_paso3_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "3784",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 53339,
+  "screenshotSize": 105680,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMTRmMjI1MzIwOTI1Yzc4YTg5MDgyNzVjEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1XeiimzA-qVOC_Bo13e5h4-rzmJouW2IGwjWwFvAHDjukyQgOd-R-uAPCYRqA3QmjihiMy91U4-sdzuG0Eg77MTIWIRcJq3UtiQO2G8VYfF6Dqu5-vHbCjURpEcCeMc4nAot_IcQJK0bJOSP0uK3lOsLAo0_4Jqk2DmLUGqzWTzdHZUVIuw5YbrEa_LGHWMmvbHgp70f022Z9PlnN1a7wfD3-ppTeVvyi76OCLBWTZYNVG4DEmS1_MuNjE"
+  }
+}

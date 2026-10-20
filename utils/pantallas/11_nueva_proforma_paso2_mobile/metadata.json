@@ -1,0 +1,19 @@
+{
+  "id": "721dc9a62c1147408a7486e0c73e27e5",
+  "name": "projects/6256314497810013108/screens/721dc9a62c1147408a7486e0c73e27e5",
+  "title": "Nueva Proforma: Paso 2 Zonas y Equipos (Smartphone) · Neumorphism",
+  "folder": "11_nueva_proforma_paso2_mobile",
+  "deviceType": "MOBILE",
+  "width": "780",
+  "height": "3158",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 29120,
+  "screenshotSize": 51525,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMDgwYTQwNWIwMWE2M2U2YmU3MzljYzAwEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1V5bc8OdKzugyM__cIR5s0ymhm0TddjgQBwyjWvBT77Ss6t2OG8CCihdFEBq5xDiiTkNkiFI27G4d2pV-wpZXCooI-r6USZuALrP2kJtFMKao2rbNrJtqOKKvKV-hkmWM3EudUK2iO6_KyeskIh7QVlYn2CJUD4qOLgVUz2x9IIy8qzyPKns2q5LZFSyNmXfTM0Oi2dl_-DAJmGxVZ359WL7WMhLyzt0_ScLk2uqDO_Jn5aP3FMQ2yek4I"
+  }
+}

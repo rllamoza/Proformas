@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Pantallas - Proformas Instalaciones Web App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #E2E8F0;
+      color: #0F172A;
+      font-family: 'Inter', sans-serif;
+    }
+    .neu-raised {
+      background: #E2E8F0;
+      box-shadow: -8px -8px 16px rgba(255, 255, 255, 0.85), 8px 8px 16px rgba(148, 163, 184, 0.45);
+      border-radius: 1rem;
+    }
+    .neu-sunken {
+      background: #E2E8F0;
+      box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8), inset 4px 4px 8px rgba(148, 163, 184, 0.4);
+      border-radius: 0.75rem;
+    }
+    .neu-btn {
+      background: #E2E8F0;
+      box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.85), 4px 4px 10px rgba(148, 163, 184, 0.45);
+      transition: all 0.2s ease;
+    }
+    .neu-btn:hover {
+      box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.95), 6px 6px 12px rgba(148, 163, 184, 0.55);
+      transform: translateY(-1px);
+    }
+    .neu-btn:active {
+      box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.85), inset 3px 3px 6px rgba(148, 163, 184, 0.5);
+      transform: translateY(1px);
+    }
+    .neu-btn-primary {
+      background: #1B2A49;
+      color: #ffffff;
+      box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.6), 4px 4px 12px rgba(27, 42, 73, 0.4);
+    }
+    .neu-btn-primary:hover {
+      background: #15223c;
+    }
+    .neu-btn-accent {
+      background: #F26B21;
+      color: #ffffff;
+      box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.7), 4px 4px 12px rgba(242, 107, 33, 0.35);
+    }
+    .neu-btn-accent:hover {
+      background: #df5d16;
+    }
+  </style>
+</head>
+<body class="min-h-screen p-6 md:p-10">
+  <div class="max-w-7xl mx-auto">
+    <!-- Header -->
+    <header class="neu-raised p-8 mb-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full neu-sunken text-xs font-semibold uppercase tracking-wider text-[#1B2A49] mb-3">
+          <span class="w-2 h-2 rounded-full bg-[#F26B21] animate-pulse"></span>
+          Stitch Design Export · 19 Pantallazos
+        </div>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-[#1B2A49] tracking-tight">Proformas Instalaciones Web App</h1>
+        <p class="text-sm md:text-base text-[#475569] mt-2">
+          Colección completa de vistas en diseño Neumórfico de alta precisión (Desktop & Mobile).
+        </p>
+      </div>
+      <div class="flex flex-wrap items-center gap-3">
+        <a href="./design-system.md" target="_blank" class="neu-btn px-4 py-2.5 rounded-lg text-sm font-semibold text-[#1B2A49] flex items-center gap-2">
+          <span class="material-symbols-outlined text-base">palette</span>
+          Design System
+        </a>
+        <a href="./README.md" target="_blank" class="neu-btn px-4 py-2.5 rounded-lg text-sm font-semibold text-[#1B2A49] flex items-center gap-2">
+          <span class="material-symbols-outlined text-base">description</span>
+          Documentación
+        </a>
+      </div>
+    </header>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap items-center justify-between gap-4 mb-8">
+      <div class="flex items-center gap-2">
+        <button onclick="filterScreens('ALL')" id="filter-all" class="neu-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider neu-btn-primary">
+          Todos (19)
+        </button>
+        <button onclick="filterScreens('DESKTOP')" id="filter-desktop" class="neu-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider text-[#1B2A49]">
+          Desktop (10)
+        </button>
+        <button onclick="filterScreens('MOBILE')" id="filter-mobile" class="neu-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider text-[#1B2A49]">
+          Mobile (9)
+        </button>
+      </div>
+      <div class="text-xs text-[#64748B] font-medium">
+        Cada pantalla incluye: <span class="font-bold text-[#1B2A49]">HTML, CSS, JS, Imagen PNG y Metadata</span>
+      </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./01_login_desktop/screenshot.png" alt="Inicio de sesión · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x2048
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#01 · 01_login_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Inicio de sesión · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./01_login_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./01_login_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./01_login_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (01_login_desktop)
+              </a>
+              <a href="./01_login_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./02_dashboard_gerencia_desktop/screenshot.png" alt="Inicio / Panel de Gerencia · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x2724
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#02 · 02_dashboard_gerencia_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Inicio / Panel de Gerencia · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./02_dashboard_gerencia_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./02_dashboard_gerencia_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./02_dashboard_gerencia_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (02_dashboard_gerencia_desktop)
+              </a>
+              <a href="./02_dashboard_gerencia_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./03_dashboard_gerencia_mobile/screenshot.png" alt="Panel de Gerencia (Smartphone) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x3292
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#03 · 03_dashboard_gerencia_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Panel de Gerencia (Smartphone) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./03_dashboard_gerencia_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./03_dashboard_gerencia_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./03_dashboard_gerencia_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (03_dashboard_gerencia_mobile)
+              </a>
+              <a href="./03_dashboard_gerencia_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./04_dashboard_vendedor_desktop/screenshot.png" alt="Inicio (Vendedor) (Desktop) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x2676
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#04 · 04_dashboard_vendedor_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Inicio (Vendedor) (Desktop) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./04_dashboard_vendedor_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./04_dashboard_vendedor_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./04_dashboard_vendedor_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (04_dashboard_vendedor_desktop)
+              </a>
+              <a href="./04_dashboard_vendedor_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./05_dashboard_vendedor_mobile/screenshot.png" alt="Inicio (Vendedor) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x3238
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#05 · 05_dashboard_vendedor_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Inicio (Vendedor) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./05_dashboard_vendedor_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./05_dashboard_vendedor_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./05_dashboard_vendedor_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (05_dashboard_vendedor_mobile)
+              </a>
+              <a href="./05_dashboard_vendedor_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./06_lista_proformas_desktop/screenshot.png" alt="Lista de Proformas · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x3488
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#06 · 06_lista_proformas_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Lista de Proformas · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./06_lista_proformas_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./06_lista_proformas_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./06_lista_proformas_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (06_lista_proformas_desktop)
+              </a>
+              <a href="./06_lista_proformas_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./07_lista_proformas_mobile/screenshot.png" alt="Lista de Proformas (Smartphone) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x3656
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#07 · 07_lista_proformas_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Lista de Proformas (Smartphone) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./07_lista_proformas_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./07_lista_proformas_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./07_lista_proformas_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (07_lista_proformas_mobile)
+              </a>
+              <a href="./07_lista_proformas_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./08_nueva_proforma_paso1_desktop/screenshot.png" alt="Nueva Proforma: Paso 1 (Desktop) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x2564
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#08 · 08_nueva_proforma_paso1_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Nueva Proforma: Paso 1 (Desktop) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./08_nueva_proforma_paso1_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./08_nueva_proforma_paso1_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./08_nueva_proforma_paso1_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (08_nueva_proforma_paso1_desktop)
+              </a>
+              <a href="./08_nueva_proforma_paso1_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./09_nueva_proforma_paso1_mobile/screenshot.png" alt="Nueva Proforma: Paso 1 (Smartphone) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x3238
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#09 · 09_nueva_proforma_paso1_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Nueva Proforma: Paso 1 (Smartphone) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./09_nueva_proforma_paso1_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./09_nueva_proforma_paso1_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./09_nueva_proforma_paso1_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (09_nueva_proforma_paso1_mobile)
+              </a>
+              <a href="./09_nueva_proforma_paso1_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./10_nueva_proforma_paso2_desktop/screenshot.png" alt="Nueva Proforma: Paso 2 Zonas y Equipos (Desktop) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x3022
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#10 · 10_nueva_proforma_paso2_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Nueva Proforma: Paso 2 Zonas y Equipos (Desktop) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./10_nueva_proforma_paso2_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./10_nueva_proforma_paso2_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./10_nueva_proforma_paso2_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (10_nueva_proforma_paso2_desktop)
+              </a>
+              <a href="./10_nueva_proforma_paso2_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./11_nueva_proforma_paso2_mobile/screenshot.png" alt="Nueva Proforma: Paso 2 Zonas y Equipos (Smartphone) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x3158
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#11 · 11_nueva_proforma_paso2_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Nueva Proforma: Paso 2 Zonas y Equipos (Smartphone) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./11_nueva_proforma_paso2_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./11_nueva_proforma_paso2_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./11_nueva_proforma_paso2_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (11_nueva_proforma_paso2_mobile)
+              </a>
+              <a href="./11_nueva_proforma_paso2_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./12_nueva_proforma_paso3_desktop/screenshot.png" alt="Nueva Proforma: Paso 3 Servicios y Mano de Obra (Desktop) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x3784
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#12 · 12_nueva_proforma_paso3_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Nueva Proforma: Paso 3 Servicios y Mano de Obra (Desktop) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./12_nueva_proforma_paso3_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./12_nueva_proforma_paso3_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./12_nueva_proforma_paso3_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (12_nueva_proforma_paso3_desktop)
+              </a>
+              <a href="./12_nueva_proforma_paso3_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./13_nueva_proforma_paso3_mobile/screenshot.png" alt="Nueva Proforma: Paso 3 Servicios y Mano de Obra (Smartphone) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x3868
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#13 · 13_nueva_proforma_paso3_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Nueva Proforma: Paso 3 Servicios y Mano de Obra (Smartphone) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./13_nueva_proforma_paso3_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./13_nueva_proforma_paso3_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./13_nueva_proforma_paso3_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (13_nueva_proforma_paso3_mobile)
+              </a>
+              <a href="./13_nueva_proforma_paso3_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./14_nueva_proforma_paso4_desktop/screenshot.png" alt="Nueva Proforma: Paso 4 Resumen y Cierre (Desktop) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x3402
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#14 · 14_nueva_proforma_paso4_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Nueva Proforma: Paso 4 Resumen y Cierre (Desktop) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./14_nueva_proforma_paso4_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./14_nueva_proforma_paso4_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./14_nueva_proforma_paso4_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (14_nueva_proforma_paso4_desktop)
+              </a>
+              <a href="./14_nueva_proforma_paso4_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./15_nueva_proforma_paso4_mobile/screenshot.png" alt="Nueva Proforma: Paso 4 Resumen y Cierre (Smartphone) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x2818
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#15 · 15_nueva_proforma_paso4_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Nueva Proforma: Paso 4 Resumen y Cierre (Smartphone) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./15_nueva_proforma_paso4_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./15_nueva_proforma_paso4_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./15_nueva_proforma_paso4_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (15_nueva_proforma_paso4_mobile)
+              </a>
+              <a href="./15_nueva_proforma_paso4_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./16_catalogo_tecnico_desktop/screenshot.png" alt="Catálogo Técnico y Detalle de Equipos (Desktop) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x2748
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#16 · 16_catalogo_tecnico_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Catálogo Técnico y Detalle de Equipos (Desktop) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./16_catalogo_tecnico_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./16_catalogo_tecnico_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./16_catalogo_tecnico_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (16_catalogo_tecnico_desktop)
+              </a>
+              <a href="./16_catalogo_tecnico_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./17_catalogo_tecnico_mobile/screenshot.png" alt="Catálogo Técnico y Detalle de Equipos (Smartphone) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x3350
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#17 · 17_catalogo_tecnico_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Catálogo Técnico y Detalle de Equipos (Smartphone) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./17_catalogo_tecnico_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./17_catalogo_tecnico_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./17_catalogo_tecnico_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (17_catalogo_tecnico_mobile)
+              </a>
+              <a href="./17_catalogo_tecnico_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="DESKTOP">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./18_reportes_financieros_desktop/screenshot.png" alt="Reportes Financieros y SUNAT (Desktop) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#1B2A49] text-white">
+            DESKTOP
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            2560x3592
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#18 · 18_reportes_financieros_desktop</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Reportes Financieros y SUNAT (Desktop) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./18_reportes_financieros_desktop/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./18_reportes_financieros_desktop/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./18_reportes_financieros_desktop/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (18_reportes_financieros_desktop)
+              </a>
+              <a href="./18_reportes_financieros_desktop/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screen-card neu-raised overflow-hidden flex flex-col" data-device="MOBILE">
+        <!-- Screenshot Preview -->
+        <div class="relative bg-slate-300 overflow-hidden aspect-video border-b border-slate-300/50 group">
+          <img src="./19_reportes_financieros_mobile/screenshot.png" alt="Reportes Financieros y SUNAT (Smartphone) · Neumorphism" class="w-full h-full object-cover object-top transition duration-300 group-hover:scale-105" loading="lazy" />
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider bg-[#F26B21] text-white">
+            MOBILE
+          </div>
+          <div class="absolute top-3 right-3 px-2 py-1 rounded bg-black/60 backdrop-blur-sm text-white text-[10px] font-mono">
+            780x2632
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <div class="text-xs font-semibold text-[#64748B] mb-1">#19 · 19_reportes_financieros_mobile</div>
+            <h3 class="text-lg font-bold text-[#1B2A49] line-clamp-2 leading-snug mb-4">Reportes Financieros y SUNAT (Smartphone) · Neumorphism</h3>
+          </div>
+
+          <!-- Actions -->
+          <div class="pt-4 border-t border-slate-300/60 flex flex-col gap-2">
+            <div class="grid grid-cols-2 gap-2">
+              <a href="./19_reportes_financieros_mobile/screen.html" target="_blank" class="neu-btn-accent text-center py-2 px-3 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">visibility</span>
+                Abrir HTML
+              </a>
+              <a href="./19_reportes_financieros_mobile/screenshot.png" target="_blank" class="neu-btn text-center py-2 px-3 rounded-lg text-xs font-bold text-[#1B2A49] flex items-center justify-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">image</span>
+                Ver Imagen
+              </a>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-[11px]">
+              <a href="./19_reportes_financieros_mobile/styles.css" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">css</span> CSS (19_reportes_financieros_mobile)
+              </a>
+              <a href="./19_reportes_financieros_mobile/script.js" target="_blank" class="neu-btn text-center py-1.5 px-2 rounded-md font-medium text-[#475569] flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-xs">javascript</span> JS Config
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function filterScreens(type) {
+      const cards = document.querySelectorAll('.screen-card');
+      cards.forEach(card => {
+        if (type === 'ALL' || card.getAttribute('data-device') === type) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      document.getElementById('filter-all').className = 'neu-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider ' + (type === 'ALL' ? 'neu-btn-primary' : 'text-[#1B2A49]');
+      document.getElementById('filter-desktop').className = 'neu-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider ' + (type === 'DESKTOP' ? 'neu-btn-primary' : 'text-[#1B2A49]');
+      document.getElementById('filter-mobile').className = 'neu-btn px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider ' + (type === 'MOBILE' ? 'neu-btn-primary' : 'text-[#1B2A49]');
+    }
+  </script>
+</body>
+</html>

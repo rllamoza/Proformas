@@ -1,0 +1,19 @@
+{
+  "id": "21ce3c9d115249eaa757bb786e74b9ce",
+  "name": "projects/6256314497810013108/screens/21ce3c9d115249eaa757bb786e74b9ce",
+  "title": "Catálogo Técnico y Detalle de Equipos (Smartphone) · Neumorphism",
+  "folder": "17_catalogo_tecnico_mobile",
+  "deviceType": "MOBILE",
+  "width": "780",
+  "height": "3350",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 28243,
+  "screenshotSize": 50075,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlNDUzNTZkODcwMWE2M2U5MTBjMzI5N2ZjEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1XVVPLlR7_3l0Elbt66lCFNtxTXQBVYpVZlXKddJYeCZnMVVDasTzaUoMy8gTwRtrKcoV01_m1Lw3revjmhrMeZiCcVB-TtzxxRCpzj1J6ExC2E7n3xBqux4JRGC72kHsUN2llUCScCDuoxrLanui2QVI5_nhYLeY3cIU0q-56zhT6-oKP6WEd1olHJ86_9zR9lw_ZdUBIGN0mELHrvjhv3WrgL8j22dXNMNGxqMvRq57UpKbg5YvTg6w"
+  }
+}

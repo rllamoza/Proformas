@@ -1,0 +1,11 @@
+/* ========================================= */
+/* Style Block 1 */
+/* ========================================= */
+@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;background-color:#f6f9ff;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.shadow-neu-extruded{box-shadow:-4px -4px 10px rgba(255,255,255,0.9),4px 4px 12px rgba(148,163,184,0.35);}.shadow-neu-extruded-sm{box-shadow:-3px -3px 8px rgba(255,255,255,0.95),3px 3px 8px rgba(148,163,184,0.3);}.shadow-neu-sunken{box-shadow:inset -3px -3px 7px rgba(255,255,255,0.85),inset 3px 3px 7px rgba(148,163,184,0.35);}.shadow-neu-accent{box-shadow:-3px -3px 8px rgba(255,255,255,0.9),3px 3px 10px rgba(242,107,33,0.35);}
+
+/* ========================================= */
+/* Style Block 2 */
+/* ========================================= */
+body {
+      min-height: max(884px, 100dvh);
+    }

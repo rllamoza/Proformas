@@ -1,0 +1,12 @@
+{
+  "name": "proformas-instalaciones",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node start.mjs",
+    "dev": "node start.mjs",
+    "test:unit": "node back/test-engine.mjs",
+    "test:e2e": "npm.cmd --prefix front run test:e2e"
+  }
+}

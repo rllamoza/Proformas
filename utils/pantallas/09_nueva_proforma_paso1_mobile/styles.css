@@ -1,0 +1,18 @@
+/* ========================================= */
+/* Style Block 1 */
+/* ========================================= */
+@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.neu-flat{box-shadow:-4px -4px 10px rgba(255,255,255,0.9),4px 4px 12px rgba(148,163,184,0.35);}.neu-bar{box-shadow:-6px -6px 14px rgba(255,255,255,0.85),6px 6px 14px rgba(148,163,184,0.25);}.neu-inset{box-shadow:inset -3px -3px 6px rgba(255,255,255,0.9),inset 3px 3px 6px rgba(148,163,184,0.3);}
+
+/* ========================================= */
+/* Style Block 2 */
+/* ========================================= */
+body {
+      min-height: max(884px, 100dvh);
+    }
+
+/* ========================================= */
+/* Style Block 3 */
+/* ========================================= */
+body {
+      min-height: max(884px, 100dvh);
+    }

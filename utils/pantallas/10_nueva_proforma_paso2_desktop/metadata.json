@@ -1,0 +1,19 @@
+{
+  "id": "b2888d703d1244f7b7258906a6cc8df0",
+  "name": "projects/6256314497810013108/screens/b2888d703d1244f7b7258906a6cc8df0",
+  "title": "Nueva Proforma: Paso 2 Zonas y Equipos (Desktop) · Neumorphism",
+  "folder": "10_nueva_proforma_paso2_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "3022",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 47630,
+  "screenshotSize": 124575,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMDkzNGI4OGEwMjhmMDk5YTEyMDZiMGEzEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UBza_gpJJuVkdiXGMnLHANZn9_Gz0_FnYCuIygkoXYNnMcBP-ij4O1lCy8qspzdWb2vd42LcCg2q0prMwr_EBjuu_FUEV_bUhRW08EWjUwyx74wSyLX5bAZAWlGkpXxlE19lJCqoIk3Ib5V4CEvicz66JElse0GMAOKpVYCuodWrZnkJQyOolp7X9N9cRvSVgz5PTGfp94N1ppGmJX-RlsMnljKoktMqyp_Y_JsR5QOt3w0TQNHbHs8jI"
+  }
+}

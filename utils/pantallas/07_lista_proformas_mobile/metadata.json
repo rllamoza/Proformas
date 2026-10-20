@@ -1,0 +1,19 @@
+{
+  "id": "a3f7842f9dff42dc8ef9842da8d1725f",
+  "name": "projects/6256314497810013108/screens/a3f7842f9dff42dc8ef9842da8d1725f",
+  "title": "Lista de Proformas (Smartphone) · Neumorphism",
+  "folder": "07_lista_proformas_mobile",
+  "deviceType": "MOBILE",
+  "width": "780",
+  "height": "3656",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 30365,
+  "screenshotSize": 40826,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZjU2YzFlY2IwOTFmN2VhNjRiMzU0NjhlEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1V8Rkp_csW6EY4WUKzTyulQhfd0UnIrTBUY90uAoXREKp7eQO-ov0WrvxzDTneGf8pn0myLUMVsBMSB3ApEBJom0knRK5a4CVfP8busVK5IsaE9t2QlgJ318uLd2EjVVS74VFjbCudHArmrASxaPm6A3fPP-di0Kw0F2pE7JD8wE3Z30_QHIYe9g5jQlo3Zwj-FfzwMOOUhG7IXpOfd30KUqlLy-ITSCrrDKBuZf0lzwF61PG7zLZVlSUo"
+  }
+}

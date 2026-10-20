@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-primary":"#ffffff","on-secondary-fixed-variant":"#7c2e00","tertiary-container":"#3b2700","inverse-primary":"#b7c6ed","surface-variant":"#dde3eb","on-tertiary":"#ffffff","surface-container-lowest":"#ffffff","error":"#ba1a1a","background":"#f6f9ff","error-container":"#ffdad6","on-secondary":"#ffffff","tertiary-fixed":"#ffdeab","on-error":"#ffffff","primary-fixed-dim":"#b7c6ed","on-tertiary-container":"#ac8d5b","surface-tint":"#505e80","surface-bright":"#f6f9ff","surface-container-low":"#eef4fc","outline":"#75777e","on-background":"#161c22","on-error-container":"#93000a","on-primary-container":"#8392b6","on-surface-variant":"#45464e","on-tertiary-fixed-variant":"#5a4318","secondary-fixed-dim":"#ffb595","primary-fixed":"#d9e2ff","primary-container":"#1b2a49","surface":"#f6f9ff","primary":"#041533","surface-container-highest":"#dde3eb","tertiary-fixed-dim":"#e4c18b","on-secondary-fixed":"#351000","on-tertiary-fixed":"#271900","outline-variant":"#c5c6cf","secondary-container":"#ff752b","inverse-on-surface":"#ebf1f9","on-surface":"#161c22","on-primary-fixed":"#0a1b39","secondary-fixed":"#ffdbcd","inverse-surface":"#2b3137","surface-container-high":"#e3e9f1","on-secondary-container":"#5f2200","tertiary":"#211400","surface-dim":"#d4dbe2","on-primary-fixed-variant":"#384667","secondary":"#a23f00","surface-container":"#e8eef6"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","space-md":"1rem","gutter":"1.5rem","margin":"2rem","space-xl":"2.5rem","space-sm":"0.5rem","gutter-sm":"1rem","space-lg":"1.5rem","margin-mobile":"1rem"},"fontFamily":{"headline-sm":["Inter"],"body-lg":["Inter"],"numeric-currency-md":["Inter"],"display-lg":["Inter"],"headline-md":["Inter"],"body-md":["Inter"],"headline-lg":["Inter"],"label-md":["Inter"],"title-md":["Inter"],"headline-lg-mobile":["Inter"],"body-sm":["Inter"],"label-sm":["Inter"],"numeric-currency-lg":["Inter"]},"fontSize":{"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"numeric-currency-md":["16px",{"lineHeight":"22px","fontWeight":"600"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-lg":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}],"title-md":["16px",{"lineHeight":"22px","fontWeight":"600"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"numeric-currency-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-[248px] bg-background z-50 flex flex-col justify-between py-space-lg px-space-md shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)]"><div class="flex flex-col gap-space-lg"><div class="flex items-center gap-space-sm px-space-sm py-space-xs rounded-xl bg-background shadow-[-4px_-4px_10px_rgba(255,255,255,0.9),4px_4px_10px_rgba(148,163,184,0.35)]"><div class="w-9 h-9 rounded-lg bg-primary-container text-on-primary flex items-center justify-center shadow-[-2px_-2px_6px_rgba(255,255,255,0.6),2px_2px_6px_rgba(27,42,73,0.4)]"><span class="material-symbols-outlined text-[20px]">router</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">PROFORMAS</span><span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">Instalaciones</span></div><div class="ml-auto text-on-surface-variant flex items-center"><span class="material-symbols-outlined text-[18px]">videocam</span></div></div><nav class="flex flex-col gap-space-xs" data-active-classes="shadow-[inset_-4px_-4px_8px_rgba(255,255,255,0.9),inset_4px_4px_8px_rgba(148,163,184,0.5)] bg-surface-container-low text-primary font-bold"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:text-on-surface shadow-[-4px_-4px_9px_rgba(255,255,255,0.85),4px_4px_9px_rgba(148,163,184,0.35)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_6px_rgba(148,163,184,0.45)] transition-all" data-path="inicio" href="#"><span class="material-symbols-outlined text-[20px]">dashboard</span><span class="font-label-md text-label-md">Inicio</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:text-on-surface shadow-[-4px_-4px_9px_rgba(255,255,255,0.85),4px_4px_9px_rgba(148,163,184,0.35)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_6px_rgba(148,163,184,0.45)] transition-all" data-path="proformas" href="#"><span class="material-symbols-outlined text-[20px]">request_quote</span><span class="font-label-md text-label-md">Proformas</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:text-on-surface shadow-[-4px_-4px_9px_rgba(255,255,255,0.85),4px_4px_9px_rgba(148,163,184,0.35)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_6px_rgba(148,163,184,0.45)] transition-all" data-path="clientes" href="#"><span class="material-symbols-outlined text-[20px]">group</span><span class="font-label-md text-label-md">Clientes</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:text-on-surface shadow-[-4px_-4px_9px_rgba(255,255,255,0.85),4px_4px_9px_rgba(148,163,184,0.35)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_6px_rgba(148,163,184,0.45)] transition-all" data-path="catalogo" href="#"><span class="material-symbols-outlined text-[20px]">inventory_2</span><span class="font-label-md text-label-md">Catálogo</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:text-on-surface shadow-[-4px_-4px_9px_rgba(255,255,255,0.85),4px_4px_9px_rgba(148,163,184,0.35)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_6px_rgba(148,163,184,0.45)] transition-all" data-path="ensamblajes" href="#"><span class="material-symbols-outlined text-[20px]">precision_manufacturing</span><span class="font-label-md text-label-md">Ensamblajes</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:text-on-surface shadow-[-4px_-4px_9px_rgba(255,255,255,0.85),4px_4px_9px_rgba(148,163,184,0.35)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_6px_rgba(148,163,184,0.45)] transition-all" data-path="servicios" href="#"><span class="material-symbols-outlined text-[20px]">build_circle</span><span class="font-label-md text-label-md">Servicios</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:text-on-surface shadow-[-4px_-4px_9px_rgba(255,255,255,0.85),4px_4px_9px_rgba(148,163,184,0.35)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_6px_rgba(148,163,184,0.45)] transition-all" data-path="parametros" href="#"><span class="material-symbols-outlined text-[20px]">tune</span><span class="font-label-md text-label-md">Parámetros</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-xl text-on-surface-variant hover:text-on-surface shadow-[-4px_-4px_9px_rgba(255,255,255,0.85),4px_4px_9px_rgba(148,163,184,0.35)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_6px_rgba(148,163,184,0.45)] transition-all" data-path="reportes" href="#"><span class="material-symbols-outlined text-[20px]">bar_chart</span><span class="font-label-md text-label-md">Reportes</span></a></nav></div><div class="px-space-sm py-space-sm rounded-xl bg-background shadow-[inset_-3px_-3px_7px_rgba(255,255,255,0.8),inset_3px_3px_7px_rgba(148,163,184,0.4)] flex items-center justify-between"><span class="font-label-sm text-label-sm text-on-surface-variant">Soporte Técnico</span><span class="material-symbols-outlined text-secondary text-[18px]">help_center</span></div></aside><div class="pl-[248px]"><header class="fixed top-0 left-[248px] right-0 h-16 bg-background/90 backdrop-blur-md z-40 px-space-gutter flex items-center justify-between shadow-[0_4px_12px_rgba(148,163,184,0.18)]"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-background shadow-[inset_-2px_-2px_5px_rgba(255,255,255,0.8),inset_2px_2px_5px_rgba(148,163,184,0.4)]"><span class="material-symbols-outlined text-secondary text-[18px]">currency_exchange</span><span class="font-label-sm text-label-sm text-on-surface-variant">TC SUNAT:</span><span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold">S/ 3.75</span></div><div class="hidden lg:flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-low shadow-[-2px_-2px_5px_rgba(255,255,255,0.8),2px_2px_5px_rgba(148,163,184,0.3)]"><span class="font-label-sm text-label-sm text-on-surface-variant">IGV Activo:</span><span class="font-label-md text-label-md text-primary font-semibold">18.00%</span></div></div><div class="flex items-center gap-space-md"><button aria-label="Notificaciones" class="w-10 h-10 rounded-full bg-background flex items-center justify-center text-on-surface-variant hover:text-primary shadow-[-3px_-3px_7px_rgba(255,255,255,0.9),3px_3px_7px_rgba(148,163,184,0.4)] active:shadow-[inset_2px_2px_4px_rgba(148,163,184,0.45),inset_-2px_-2px_4px_rgba(255,255,255,0.8)] transition-all" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span></button><div class="flex items-center gap-space-sm pl-space-sm pr-space-xs py-space-xs rounded-full bg-background shadow-[-4px_-4px_9px_rgba(255,255,255,0.9),4px_4px_9px_rgba(148,163,184,0.35)]"><div class="flex flex-col text-right pr-space-xs hidden sm:flex"><span class="font-label-md text-label-md text-primary font-bold leading-tight">Carlos Mendoza</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-none">Gerencia General</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[-2px_-2px_5px_rgba(255,255,255,0.6),2px_2px_5px_rgba(27,42,73,0.45)]"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="relative pt-16 w-full min-h-screen px-space-gutter py-space-lg bg-background"><div class="flex flex-col w-full gap-space-lg pb-space-xl">
+<!-- ==================== BLOQUE DE BIENVENIDA & PANEL DE METAS ==================== -->
+<section class="w-full rounded-xl bg-background p-space-lg shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)] flex flex-col xl:flex-row items-stretch xl:items-center justify-between gap-space-lg">
+<!-- Perfil del Asesor y Estado Operativo -->
+<div class="flex items-start sm:items-center gap-space-md min-w-0">
+<div class="relative shrink-0">
+<div class="w-16 h-16 rounded-xl bg-background flex items-center justify-center text-primary shadow-[-4px_-4px_10px_rgba(255,255,255,0.9),4px_4px_10px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[32px] text-primary-container" style="font-variation-settings: 'FILL' 1;">badge</span>
+</div>
+<span class="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-emerald-500 shadow-[-2px_-2px_4px_rgba(255,255,255,0.9),2px_2px_4px_rgba(16,185,129,0.4)]" title="En línea"></span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs">
+<h1 class="font-headline-md text-headline-md text-primary tracking-tight font-bold">¡Hola de nuevo, Carlos Mendoza!</h1>
+<span class="px-space-xs py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-label-sm text-label-sm shadow-[inset_-1px_-1px_3px_rgba(255,255,255,0.9),inset_1px_1px_3px_rgba(16,185,129,0.25)] flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span> Jornada Activa
+          </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">
+          Asesor Comercial Senior · <span class="font-semibold text-primary">Zona Lima y Callao</span> · Redes, CCTV &amp; Seguridad Electrónica
+        </p>
+<div class="flex items-center gap-space-md mt-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">calendar_today</span> Martes, 24 de Octubre 2025
+          </span>
+<span class="text-outline-variant">•</span>
+<span class="flex items-center gap-1 text-secondary font-semibold">
+<span class="material-symbols-outlined text-[15px]">verified_user</span> SUNAT Validado
+          </span>
+</div>
+</div>
+</div>
+<!-- Termómetro de Meta Comercial & Botón CTA -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-lg shrink-0">
+<!-- Meta Mensual Widget Neumórfico -->
+<div class="px-space-md py-space-sm rounded-xl bg-background shadow-[inset_-3px_-3px_7px_rgba(255,255,255,0.85),inset_3px_3px_7px_rgba(148,163,184,0.38)] flex flex-col min-w-[260px]">
+<div class="flex justify-between items-center mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Meta Octubre</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-secondary font-bold">80.4%</span>
+</div>
+<!-- Barra de progreso con bajorrelieve -->
+<div class="w-full h-3 rounded-full bg-surface-container-highest shadow-[inset_-2px_-2px_4px_rgba(255,255,255,0.8),inset_2px_2px_4px_rgba(148,163,184,0.4)] overflow-hidden p-0.5 mb-1.5">
+<div class="h-full rounded-full bg-gradient-to-r from-secondary-container to-secondary transition-all duration-700 shadow-[0_1px_3px_rgba(242,107,33,0.4)]" style="width: 80.4%;"></div>
+</div>
+<div class="flex justify-between items-baseline font-body-sm text-body-sm text-on-surface-variant">
+<span>S/ 48,250 <span class="text-[10px]">/ 60k</span></span>
+<span class="text-primary font-semibold">Faltan S/ 11,750 (Bono)</span>
+</div>
+</div>
+<!-- CTA Principal: + Nueva Proforma con Doble Sombra Neumórfica -->
+<button class="group relative px-space-lg py-space-md rounded-xl bg-secondary-container text-on-secondary font-title-md text-title-md flex items-center justify-center gap-space-xs shadow-[-4px_-4px_12px_rgba(255,255,255,0.9),4px_4px_14px_rgba(242,107,33,0.45)] hover:shadow-[-2px_-2px_6px_rgba(255,255,255,0.9),2px_2px_8px_rgba(242,107,33,0.55)] active:shadow-[inset_2px_2px_6px_rgba(95,34,0,0.6),inset_-2px_-2px_6px_rgba(255,255,255,0.2)] transition-all" type="button">
+<span class="material-symbols-outlined text-[22px] transition-transform group-hover:rotate-90">add_circle</span>
+<span>Nueva Proforma</span>
+</button>
+</div>
+</section>
+<!-- ==================== 4 TARJETAS KPIS NEUMÓRFICAS ==================== -->
+<section class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-space-lg">
+<!-- KPI 1: Monto Cotizado -->
+<div class="rounded-xl bg-background p-space-md shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)] flex flex-col justify-between relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Monto Cotizado (Mes)</span>
+<span class="font-numeric-currency-lg text-numeric-currency-lg text-primary font-bold mt-1 block">S/ 48,250.00</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-background flex items-center justify-center text-primary-container shadow-[-3px_-3px_7px_rgba(255,255,255,0.9),3px_3px_7px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[22px]">payments</span>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-md pt-space-xs border-t border-surface-container-high/60">
+<div class="flex items-center gap-1 text-emerald-700 font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+<span>+18.4%</span>
+<span class="text-on-surface-variant font-normal text-body-sm text-body-sm">vs Sep</span>
+</div>
+<!-- Sparkline Decorativo SVG -->
+<svg class="w-20 h-6 text-emerald-600" fill="none" viewbox="0 0 80 24">
+<path d="M2 18 L18 14 L34 16 L50 9 L66 11 L78 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
+</svg>
+</div>
+</div>
+<!-- KPI 2: Proformas en Gestión -->
+<div class="rounded-xl bg-background p-space-md shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)] flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Proformas en Gestión</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-numeric-currency-lg text-numeric-currency-lg text-primary font-bold">6</span>
+<span class="font-body-md text-body-md text-on-surface-variant">activas</span>
+</div>
+</div>
+<div class="w-10 h-10 rounded-lg bg-background flex items-center justify-center text-secondary shadow-[-3px_-3px_7px_rgba(255,255,255,0.9),3px_3px_7px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[22px]">pending_actions</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs mt-space-md pt-space-xs border-t border-surface-container-high/60">
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold flex items-center gap-1 shadow-[inset_-1px_-1px_3px_rgba(255,255,255,0.8),inset_1px_1px_3px_rgba(186,26,26,0.2)]">
+<span class="material-symbols-outlined text-[13px]">alarm</span> 2 por vencer hoy
+        </span>
+<span class="text-body-sm text-body-sm text-on-surface-variant">Prioridad alta</span>
+</div>
+</div>
+<!-- KPI 3: Tasa de Cierre Personal -->
+<div class="rounded-xl bg-background p-space-md shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)] flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Efectividad de Cierre</span>
+<span class="font-numeric-currency-lg text-numeric-currency-lg text-primary font-bold mt-1 block">64.3%</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-background flex items-center justify-center text-primary shadow-[-3px_-3px_7px_rgba(255,255,255,0.9),3px_3px_7px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[22px]">handshake</span>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-md pt-space-xs border-t border-surface-container-high/60">
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+<strong class="text-primary font-semibold">9 aprobadas</strong> de 14 emitidas
+        </span>
+<div class="w-14 h-2 rounded-full bg-surface-container-highest shadow-[inset_-1px_-1px_2px_rgba(255,255,255,0.8),inset_1px_1px_2px_rgba(148,163,184,0.4)] overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 64.3%;"></div>
+</div>
+</div>
+</div>
+<!-- KPI 4: Comisiones Acumuladas Proyectadas -->
+<div class="rounded-xl bg-background p-space-md shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)] flex flex-col justify-between">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Comisión Proyectada</span>
+<span class="font-numeric-currency-lg text-numeric-currency-lg text-secondary font-bold mt-1 block">S/ 2,895.00</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-background flex items-center justify-center text-secondary shadow-[-3px_-3px_7px_rgba(255,255,255,0.9),3px_3px_7px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[22px]">savings</span>
+</div>
+</div>
+<div class="flex items-center justify-between mt-space-md pt-space-xs border-t border-surface-container-high/60">
+<span class="font-body-sm text-body-sm text-on-surface-variant">3.0% neto s/ adjudicaciones</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold underline cursor-pointer hover:text-secondary">Ver desglose</span>
+</div>
+</div>
+</section>
+<!-- ==================== CUERPO PRINCIPAL: ASIMETRÍA 65% / 35% ==================== -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- ==================== COLUMNA IZQUIERDA (65% / col-span-8): BANDEJA DE PROFORMAS ==================== -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Contenedor Maestro de Proformas -->
+<div class="rounded-xl bg-background p-space-lg shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)]">
+<!-- Header de la Bandeja + Controles de Filtrado -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md pb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-primary shadow-[-2px_-2px_5px_rgba(255,255,255,0.9),2px_2px_5px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[20px]">inventory</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold leading-tight">Bandeja de Proformas en Curso</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cotizaciones técnicas activas asignadas a tu cartera</p>
+</div>
+</div>
+<!-- Selector de Fechas Rápido -->
+<div class="flex items-center gap-space-xs px-space-sm py-1.5 rounded-xl bg-background shadow-[inset_-2px_-2px_5px_rgba(255,255,255,0.8),inset_2px_2px_5px_rgba(148,163,184,0.35)] text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">date_range</span>
+<span class="font-medium text-body-sm text-body-sm">Mes en Curso (Oct 2025)</span>
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant cursor-pointer">arrow_drop_down</span>
+</div>
+</div>
+<!-- Filtros Neumórficos Pestañas (Segmented Tabs) & Barra de Búsqueda Inset -->
+<div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-space-md my-space-md">
+<!-- Pestañas Sunken / Extruded -->
+<div class="inline-flex p-1 rounded-xl bg-surface-container-low shadow-[inset_-3px_-3px_7px_rgba(255,255,255,0.9),inset_3px_3px_7px_rgba(148,163,184,0.4)]">
+<button class="px-space-md py-1.5 rounded-lg text-primary font-semibold font-label-md text-label-md shadow-[-2px_-2px_5px_rgba(255,255,255,0.9),2px_2px_5px_rgba(148,163,184,0.3)] bg-background transition-all">
+              Todas (6)
+            </button>
+<button class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all flex items-center gap-1">
+<span>Por Vencer</span>
+<span class="w-4 h-4 rounded-full bg-error-container text-on-error-container text-[10px] font-bold flex items-center justify-center">2</span>
+</button>
+<button class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all">
+              Borradores (1)
+            </button>
+<button class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all">
+              Aprobadas (3)
+            </button>
+</div>
+<!-- Buscador Sunken Inset -->
+<div class="relative flex-1 max-w-xs">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-[18px] text-on-surface-variant">search</span>
+<input class="w-full pl-9 pr-3 py-1.5 rounded-xl bg-background font-body-sm text-body-sm text-on-surface placeholder:text-outline shadow-[inset_-3px_-3px_7px_rgba(255,255,255,0.85),inset_3px_3px_7px_rgba(148,163,184,0.4)] focus:outline-none focus:ring-1 focus:ring-secondary/50" placeholder="Buscar por cliente o código..." type="text"/>
+</div>
+</div>
+<!-- LISTADO DE PROFORMAS (Tarjetas Detalladas con Ranuras y Contraste Neumórfico) -->
+<div class="flex flex-col gap-space-md mt-space-md">
+<!-- Item 1: PF-2026-0001 (Familia Quispe Rojas) -->
+<div class="p-space-md rounded-xl bg-background shadow-[-4px_-4px_10px_rgba(255,255,255,0.85),4px_4px_10px_rgba(148,163,184,0.35)] hover:shadow-[-6px_-6px_14px_rgba(255,255,255,0.95),6px_6px_14px_rgba(148,163,184,0.45)] transition-all flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0 shadow-[inset_-2px_-2px_4px_rgba(255,255,255,0.8),inset_2px_2px_4px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[20px]">wifi</span>
+</div>
+<div class="min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs mb-0.5">
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold">PF-2026-0001</span>
+<span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 font-label-sm text-label-sm font-semibold flex items-center gap-1 shadow-[inset_-1px_-1px_2px_rgba(255,255,255,0.8),inset_1px_1px_2px_rgba(217,119,6,0.3)]">
+<span class="material-symbols-outlined text-[12px]">schedule</span> Vence en 3 días
+                  </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Familia Quispe Rojas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Proyecto: Red WiFi Mesh 6 Wi-Tek + Videoportero IP Dahua Full Color (3 Puntos)</p>
+</div>
+</div>
+<div class="flex flex-row xl:flex-col items-center xl:items-end justify-between xl:justify-center shrink-0 border-t xl:border-t-0 pt-2 xl:pt-0 border-surface-container-high/50">
+<div class="text-left xl:text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Total Inc. IGV</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-secondary font-bold">S/ 6,992.81</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1">
+<button class="w-8 h-8 rounded-lg bg-background text-primary flex items-center justify-center shadow-[-2px_-2px_5px_rgba(255,255,255,0.9),2px_2px_5px_rgba(148,163,184,0.35)] hover:text-secondary active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.5)] transition-all" title="Ver PDF Generado">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+</button>
+<button class="w-8 h-8 rounded-lg bg-emerald-600 text-white flex items-center justify-center shadow-[-2px_-2px_5px_rgba(255,255,255,0.8),2px_2px_5px_rgba(16,185,129,0.4)] hover:bg-emerald-700 active:shadow-[inset_1px_1px_3px_rgba(0,0,0,0.4)] transition-all" title="Conversar por WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</button>
+<button class="w-8 h-8 rounded-lg bg-background text-on-surface-variant flex items-center justify-center shadow-[-2px_-2px_5px_rgba(255,255,255,0.9),2px_2px_5px_rgba(148,163,184,0.35)] hover:text-primary active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.5)] transition-all" title="Editar Cotización">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 2: PF-2026-0003 (Edificio Panorama - Miraflores) -->
+<div class="p-space-md rounded-xl bg-background shadow-[-4px_-4px_10px_rgba(255,255,255,0.85),4px_4px_10px_rgba(148,163,184,0.35)] hover:shadow-[-6px_-6px_14px_rgba(255,255,255,0.95),6px_6px_14px_rgba(148,163,184,0.45)] transition-all flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary-container shrink-0 shadow-[inset_-2px_-2px_4px_rgba(255,255,255,0.8),inset_2px_2px_4px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[20px]">videocam</span>
+</div>
+<div class="min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs mb-0.5">
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold">PF-2026-0003</span>
+<span class="px-2 py-0.5 rounded-full bg-slate-200 text-slate-700 font-label-sm text-label-sm font-semibold flex items-center gap-1 shadow-[inset_-1px_-1px_2px_rgba(255,255,255,0.8),inset_1px_1px_2px_rgba(100,116,139,0.3)]">
+<span class="material-symbols-outlined text-[12px]">edit_note</span> Borrador · Hace 2 h
+                  </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Edificio Panorama - Miraflores</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">CCTV 16 cámaras IP 4K AcuSense + NVR 32Ch 4 Bahías + Fibra Enlace</p>
+</div>
+</div>
+<div class="flex flex-row xl:flex-col items-center xl:items-end justify-between xl:justify-center shrink-0 border-t xl:border-t-0 pt-2 xl:pt-0 border-surface-container-high/50">
+<div class="text-left xl:text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Presupuesto Estimado</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold">S/ 14,200.00</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1">
+<button class="px-3 py-1 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm font-medium shadow-[-2px_-2px_5px_rgba(255,255,255,0.6),2px_2px_5px_rgba(4,21,51,0.4)] hover:bg-primary-container active:shadow-[inset_1px_1px_3px_rgba(0,0,0,0.5)] transition-all flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">arrow_forward</span> Continuar Cotización
+                </button>
+<button class="w-8 h-8 rounded-lg bg-background text-error flex items-center justify-center shadow-[-2px_-2px_5px_rgba(255,255,255,0.9),2px_2px_5px_rgba(148,163,184,0.35)] hover:bg-error-container transition-all" title="Descartar">
+<span class="material-symbols-outlined text-[16px]">delete</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Item 3: PF-2026-0008 (Residencia La Molina) -->
+<div class="p-space-md rounded-xl bg-background shadow-[-4px_-4px_10px_rgba(255,255,255,0.85),4px_4px_10px_rgba(148,163,184,0.35)] hover:shadow-[-6px_-6px_14px_rgba(255,255,255,0.95),6px_6px_14px_rgba(148,163,184,0.45)] transition-all flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0 shadow-[inset_-2px_-2px_4px_rgba(255,255,255,0.8),inset_2px_2px_4px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[20px]">settings_ethernet</span>
+</div>
+<div class="min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs mb-0.5">
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold">PF-2026-0008</span>
+<span class="px-2 py-0.5 rounded-full bg-blue-100 text-blue-900 font-label-sm text-label-sm font-semibold flex items-center gap-1 shadow-[inset_-1px_-1px_2px_rgba(255,255,255,0.8),inset_1px_1px_2px_rgba(30,64,175,0.25)]">
+<span class="material-symbols-outlined text-[12px]">verified</span> En Revisión Gerencia
+                  </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Residencia La Molina (Arq. Belaunde)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Cableado Estructurado Panduit Cat6A LSZH + Gabinete Rack 24U Climatizado</p>
+</div>
+</div>
+<div class="flex flex-row xl:flex-col items-center xl:items-end justify-between xl:justify-center shrink-0 border-t xl:border-t-0 pt-2 xl:pt-0 border-surface-container-high/50">
+<div class="text-left xl:text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Total Presupuestado</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold">S/ 9,850.00</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1">
+<button class="px-3 py-1 rounded-lg bg-background text-primary font-label-sm text-label-sm font-semibold shadow-[-2px_-2px_5px_rgba(255,255,255,0.9),2px_2px_5px_rgba(148,163,184,0.35)] hover:text-secondary active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.5)] transition-all">
+                  Ver Detalle
+                </button>
+<button class="px-3 py-1 rounded-lg bg-background text-secondary font-label-sm text-label-sm font-bold shadow-[-2px_-2px_5px_rgba(255,255,255,0.9),2px_2px_5px_rgba(148,163,184,0.35)] hover:bg-orange-50 active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.5)] transition-all flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">send</span> Pedir VoBo
+                </button>
+</div>
+</div>
+</div>
+<!-- Item 4: PF-2026-0012 (Condominio Las Torres) -->
+<div class="p-space-md rounded-xl bg-background shadow-[-4px_-4px_10px_rgba(255,255,255,0.85),4px_4px_10px_rgba(148,163,184,0.35)] hover:shadow-[-6px_-6px_14px_rgba(255,255,255,0.95),6px_6px_14px_rgba(148,163,184,0.45)] transition-all flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0 shadow-[inset_-2px_-2px_4px_rgba(255,255,255,0.8),inset_2px_2px_4px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[20px]">electric_bolt</span>
+</div>
+<div class="min-w-0">
+<div class="flex flex-wrap items-center gap-space-xs mb-0.5">
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold">PF-2026-0012</span>
+<span class="px-2 py-0.5 rounded-full bg-red-100 text-red-900 font-label-sm text-label-sm font-semibold flex items-center gap-1 shadow-[inset_-1px_-1px_2px_rgba(255,255,255,0.8),inset_1px_1px_2px_rgba(185,28,28,0.25)]">
+<span class="material-symbols-outlined text-[12px]">notification_important</span> Sin respuesta · 4 días
+                  </span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold truncate">Condominio Las Torres</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Cerco Eléctrico Perimetral 12 Líneas (450m) + Central Hagroy i-Shoc</p>
+</div>
+</div>
+<div class="flex flex-row xl:flex-col items-center xl:items-end justify-between xl:justify-center shrink-0 border-t xl:border-t-0 pt-2 xl:pt-0 border-surface-container-high/50">
+<div class="text-left xl:text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Monto Adjudicación</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-secondary font-bold">S/ 28,450.00</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1">
+<button class="px-2.5 py-1 rounded-lg bg-emerald-600 text-white font-label-sm text-label-sm font-semibold shadow-[-2px_-2px_5px_rgba(255,255,255,0.8),2px_2px_5px_rgba(16,185,129,0.35)] hover:bg-emerald-700 active:shadow-[inset_1px_1px_3px_rgba(0,0,0,0.4)] transition-all flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">send</span> Recordatorio WA
+                </button>
+<button class="w-8 h-8 rounded-lg bg-background text-on-surface flex items-center justify-center shadow-[-2px_-2px_5px_rgba(255,255,255,0.9),2px_2px_5px_rgba(148,163,184,0.35)] hover:text-primary active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.5)] transition-all" title="Registrar llamada">
+<span class="material-symbols-outlined text-[16px]">phone_in_talk</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer de Bandeja: Acciones Masivas y Paginación -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm pt-space-md mt-space-md border-t border-surface-container-high/70 text-on-surface-variant font-body-sm text-body-sm">
+<span>Mostrando 4 de 6 proformas activas</span>
+<div class="flex items-center gap-space-xs">
+<button class="w-7 h-7 rounded-lg bg-background text-on-surface flex items-center justify-center shadow-[-2px_-2px_4px_rgba(255,255,255,0.8),2px_2px_4px_rgba(148,163,184,0.35)] cursor-not-allowed opacity-50">
+<span class="material-symbols-outlined text-[16px]">chevron_left</span>
+</button>
+<span class="px-2 py-0.5 rounded-md bg-surface-container-low font-semibold text-primary font-label-sm text-label-sm">1</span>
+<button class="w-7 h-7 rounded-lg bg-background text-on-surface flex items-center justify-center shadow-[-2px_-2px_4px_rgba(255,255,255,0.8),2px_2px_4px_rgba(148,163,184,0.35)] hover:text-primary">
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Sección Visual Adicional: Flujo de Proceso Rápido para Vendedores -->
+<div class="rounded-xl bg-background p-space-md shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)] flex items-center justify-between">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/10 text-secondary flex items-center justify-center shadow-[inset_-2px_-2px_5px_rgba(255,255,255,0.9),inset_2px_2px_5px_rgba(242,107,33,0.3)]">
+<span class="material-symbols-outlined text-[26px]">download_for_offline</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-primary font-semibold">Plantillas Técnicas Preconfiguradas</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Carga combos certificados de CCTV Hikvision y Wi-Tek con mano de obra calculada en 1 clic.</p>
+</div>
+</div>
+<button class="px-space-md py-space-sm rounded-xl bg-background text-primary font-label-md text-label-md font-semibold shadow-[-3px_-3px_7px_rgba(255,255,255,0.9),3px_3px_7px_rgba(148,163,184,0.35)] hover:text-secondary active:shadow-[inset_2px_2px_4px_rgba(148,163,184,0.4)] transition-all shrink-0">
+          Explorar Kits
+        </button>
+</div>
+</div>
+<!-- ==================== COLUMNA DERECHA (35% / col-span-4): LEADS CALIENTES & CALCULADORA ==================== -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- 1. Tarjeta: Seguimiento y Cierre Rápido (Leads Calientes) -->
+<div class="rounded-xl bg-background p-space-lg shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)]">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm border-b border-surface-container-high/60">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[22px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Leads Calientes</h3>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary/10 text-secondary font-label-sm text-label-sm font-bold">Por Cerrar</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Contactos con alta probabilidad de firma en las próximas 48 horas.</p>
+<div class="flex flex-col gap-space-md">
+<!-- Lead 1: Ing. Marcos Valdivia -->
+<div class="p-space-sm rounded-xl bg-surface-container-low shadow-[inset_-2px_-2px_5px_rgba(255,255,255,0.8),inset_2px_2px_5px_rgba(148,163,184,0.35)] flex flex-col gap-space-xs">
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-title-md text-title-md text-primary font-bold">Condominio Las Torres</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Ing. Marcos Valdivia (Presidente)</span>
+</div>
+<span class="font-numeric-currency-md text-numeric-currency-md text-secondary font-bold">S/ 28,450</span>
+</div>
+<div class="flex items-center gap-space-xs pt-1">
+<a class="flex-1 py-1.5 px-2 rounded-lg bg-emerald-600 text-white font-label-sm text-label-sm font-semibold flex items-center justify-center gap-1 shadow-[-2px_-2px_4px_rgba(255,255,255,0.7),2px_2px_5px_rgba(16,185,129,0.4)] hover:bg-emerald-700 active:shadow-[inset_1px_1px_3px_rgba(0,0,0,0.4)] transition-all" href="https://wa.me/51999888777" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> WhatsApp
+              </a>
+<button class="flex-1 py-1.5 px-2 rounded-lg bg-background text-primary font-label-sm text-label-sm font-semibold flex items-center justify-center gap-1 shadow-[-2px_-2px_4px_rgba(255,255,255,0.9),2px_2px_4px_rgba(148,163,184,0.35)] hover:text-secondary active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.4)] transition-all">
+<span class="material-symbols-outlined text-[16px]">call</span> Llamar
+              </button>
+</div>
+</div>
+<!-- Lead 2: Dra. Claudia Benavides -->
+<div class="p-space-sm rounded-xl bg-surface-container-low shadow-[inset_-2px_-2px_5px_rgba(255,255,255,0.8),inset_2px_2px_5px_rgba(148,163,184,0.35)] flex flex-col gap-space-xs">
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-title-md text-title-md text-primary font-bold">Clínica San Rafael</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Dra. Claudia Benavides (Admin)</span>
+</div>
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold">S/ 42,800</span>
+</div>
+<button class="w-full mt-1 py-1.5 px-2 rounded-lg bg-background text-secondary font-label-sm text-label-sm font-semibold flex items-center justify-center gap-1 shadow-[-2px_-2px_4px_rgba(255,255,255,0.9),2px_2px_4px_rgba(148,163,184,0.35)] hover:bg-orange-50 active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.4)] transition-all">
+<span class="material-symbols-outlined text-[16px]">forward_to_inbox</span> Reenviar con Nota Descuento
+            </button>
+</div>
+</div>
+</div>
+<!-- 2. Widget: Calculadora Rápida de Margen y Descuento Máximo -->
+<div class="rounded-xl bg-background p-space-lg shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)] flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-secondary shadow-[-2px_-2px_4px_rgba(255,255,255,0.9),2px_2px_4px_rgba(148,163,184,0.35)]">
+<span class="material-symbols-outlined text-[20px]">calculate</span>
+</div>
+<div>
+<h3 class="font-title-md text-title-md text-primary font-bold">Simulador de Descuento</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Política Rentabilidad Mínima: 30%</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium">Monto Base de Proforma (Soles)</label>
+<div class="relative">
+<span class="absolute left-3 top-1/2 -translate-y-1/2 text-primary font-bold font-body-sm text-body-sm">S/</span>
+<input class="w-full pl-8 pr-3 py-2 rounded-xl bg-background font-numeric-currency-md text-numeric-currency-md text-primary shadow-[inset_-3px_-3px_7px_rgba(255,255,255,0.85),inset_3px_3px_7px_rgba(148,163,184,0.4)] focus:outline-none focus:ring-1 focus:ring-secondary/50" id="calc-base" type="number" value="10000"/>
+</div>
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium mt-1">Descuento Comercial a Evaluar</label>
+<div class="grid grid-cols-3 gap-space-xs">
+<button class="py-1.5 rounded-lg bg-surface-container text-primary font-label-md text-label-md font-bold shadow-[-2px_-2px_5px_rgba(255,255,255,0.8),2px_2px_5px_rgba(148,163,184,0.3)] hover:text-secondary active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.5)]" id="btn-desc-3" type="button">
+              -3%
+            </button>
+<button class="py-1.5 rounded-lg bg-surface-container text-primary font-label-md text-label-md font-bold shadow-[-2px_-2px_5px_rgba(255,255,255,0.8),2px_2px_5px_rgba(148,163,184,0.3)] hover:text-secondary active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.5)]" id="btn-desc-5" type="button">
+              -5%
+            </button>
+<button class="py-1.5 rounded-lg bg-surface-container text-primary font-label-md text-label-md font-bold shadow-[-2px_-2px_5px_rgba(255,255,255,0.8),2px_2px_5px_rgba(148,163,184,0.3)] hover:text-secondary active:shadow-[inset_1px_1px_3px_rgba(148,163,184,0.5)]" id="btn-desc-8" type="button">
+              -8%
+            </button>
+</div>
+</div>
+<!-- Caja de Resultado Simulado -->
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-[inset_-3px_-3px_7px_rgba(255,255,255,0.85),inset_3px_3px_7px_rgba(148,163,184,0.38)] flex flex-col gap-1.5">
+<div class="flex justify-between items-center text-body-sm text-body-sm">
+<span class="text-on-surface-variant">Margen Neto Resultante:</span>
+<span class="font-bold text-emerald-700" id="calc-margen">32.8% (Viable)</span>
+</div>
+<div class="flex justify-between items-center text-body-sm text-body-sm">
+<span class="text-on-surface-variant">Nuevo Total Cliente:</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary font-bold" id="calc-total">S/ 9,500.00</span>
+</div>
+<div class="w-full pt-1.5 border-t border-outline-variant/40 flex items-center gap-1 text-[11px] text-emerald-700 font-semibold">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>Aprobación automática por el Asesor permitida</span>
+</div>
+</div>
+</div>
+<!-- 3. Consejo de Venta / Tip Comercial -->
+<div class="rounded-xl bg-background p-space-md shadow-[-6px_-6px_14px_rgba(255,255,255,0.85),6px_6px_14px_rgba(148,163,184,0.45)] relative overflow-hidden flex items-start gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-amber-500/10 text-amber-800 flex items-center justify-center shrink-0 shadow-[-2px_-2px_4px_rgba(255,255,255,0.9),2px_2px_4px_rgba(245,158,11,0.25)]">
+<span class="material-symbols-outlined text-[20px]">lightbulb</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider mb-0.5">Tip Comercial del Día</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Las proformas contactadas vía <strong>WhatsApp dentro de las primeras 48 horas</strong> tienen una tasa de cierre <strong class="text-secondary font-semibold">35% mayor</strong> en proyectos de videovigilancia y redes.
+          </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Script interactivo ligero para el simulador de margen -->
+<script>
+  (function() {
+    const baseInput = document.getElementById('calc-base');
+    const margenText = document.getElementById('calc-margen');
+    const totalText = document.getElementById('calc-total');
+
+    function updateCalc(descPct) {
+      const base = parseFloat(baseInput.value) || 0;
+      const finalPrice = base * (1 - descPct / 100);
+      
+      // Costo teórico base: 63% del valor inicial
+      const cost = base * 0.63;
+      const margin = ((finalPrice - cost) / finalPrice) * 100;
+
+      totalText.textContent = 'S/ ' + finalPrice.toLocaleString('es-PE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      
+      if (margin >= 30) {
+        margenText.className = 'font-bold text-emerald-700';
+        margenText.textContent = margin.toFixed(1) + '% (Viable)';
+      } else {
+        margenText.className = 'font-bold text-error';
+        margenText.textContent = margin.toFixed(1) + '% (Requiere VoBo Gerencia)';
+      }
+    }
+
+    const btn3 = document.getElementById('btn-desc-3');
+    const btn5 = document.getElementById('btn-desc-5');
+    const btn8 = document.getElementById('btn-desc-8');
+
+    if(btn3) btn3.addEventListener('click', () => updateCalc(3));
+    if(btn5) btn5.addEventListener('click', () => updateCalc(5));
+    if(btn8) btn8.addEventListener('click', () => updateCalc(8));
+  })();
+</script></main></div></body></html>

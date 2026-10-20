@@ -1,0 +1,19 @@
+{
+  "id": "69277500b0c54c92ab5303a7ead960ef",
+  "name": "projects/6256314497810013108/screens/69277500b0c54c92ab5303a7ead960ef",
+  "title": "Lista de Proformas · Neumorphism",
+  "folder": "06_lista_proformas_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "3488",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 58744,
+  "screenshotSize": 84987,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZTg0MTdkZTgwMmE5OTYxZDgzMzA4NmYxEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UNyncx81kY_Gy2y4azKKYgyxcPI-VNXu7KQ7EuFZsraO-dxcjGiDR4VmCXEkUMyFJVAl0AioybF9VoKSB3dEdc7N4YTj_ACqaH9FkDGJzNA1XB09ZdKPJi7Ud2CG-OyIDuxSN7a0J-2gCzlnY933KYK8qS1DbVos1iLzBVPYLKcjdMyYS5ibjbNAbJA57lzOzKd42UiH697ypVW4jHrkJzQrs_MAdyB9XrlERdI_GWhDkUUKijDhm2258"
+  }
+}

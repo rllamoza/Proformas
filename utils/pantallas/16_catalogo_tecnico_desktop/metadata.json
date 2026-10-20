@@ -1,0 +1,19 @@
+{
+  "id": "1499b1534ae94ea79e5ab4b2011f543a",
+  "name": "projects/6256314497810013108/screens/1499b1534ae94ea79e5ab4b2011f543a",
+  "title": "Catálogo Técnico y Detalle de Equipos (Desktop) · Neumorphism",
+  "folder": "16_catalogo_tecnico_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "2748",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 42685,
+  "screenshotSize": 122389,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlM2M2ZWExYjUwNGVhYjAzNDg4MjNiYTM2EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1VST-Cl_rdQgrNx4qA2wAHGHmOyaI5Z8Sbw0RFQEMODCrxBXvpNk_-GhzMg0DGX2yicZ_HA87mEMe98aUQABeS11tyjY9pSf3DuQd96IxiqQhFtAGjnCFZHOtkzwd3ZzNdL89b71rg41UXojHC8SQTvdVZSTgj03Y9_PWqBdrktXwpe9bx1ZQ2k-bWowN_XYGNqTeAKRoxNhazgvv4kgrHdW3vf5RCVd2gS33ngS31cPEKp4DxkpqLnc-M"
+  }
+}

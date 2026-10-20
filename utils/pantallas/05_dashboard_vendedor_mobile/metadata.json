@@ -1,0 +1,19 @@
+{
+  "id": "f378d6c4099440f3adfa5bcf3c376e93",
+  "name": "projects/6256314497810013108/screens/f378d6c4099440f3adfa5bcf3c376e93",
+  "title": "Inicio (Vendedor) · Neumorphism",
+  "folder": "05_dashboard_vendedor_mobile",
+  "deviceType": "MOBILE",
+  "width": "780",
+  "height": "3238",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 24543,
+  "screenshotSize": 49088,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZGMxM2Q5ZDYwOTI1YzdhOGQ4MDY4NTdiEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1X1sF6s6blOF3S9u3tWBzLXNjCTrQGlmQYgR1yIpb9Uj-wfTE17JNKS3K_78EsG-obc9s9YTFgmYFLGEE1mc7_Doy4lObUwxqi_AjKoOks5q8_Hxn_gyKioR9BdQrJ50DDaFDovFdH0mS-k2yB2fdnUBbNp1oICIb0QkE3Xg7g_LpQbWxb4Ka16f5rHRb5hREKi-tt6kAwQ9t2t4cb3IW13BByiijlZshCIP6oInR-TiSnvHVd_yDDJtw"
+  }
+}

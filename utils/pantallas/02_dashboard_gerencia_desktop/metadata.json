@@ -1,0 +1,19 @@
+{
+  "id": "4681e0a1726948e68f84f46de08b8d01",
+  "name": "projects/6256314497810013108/screens/4681e0a1726948e68f84f46de08b8d01",
+  "title": "Inicio / Panel de Gerencia · Neumorphism",
+  "folder": "02_dashboard_gerencia_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "2724",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 46576,
+  "screenshotSize": 124263,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZDM3ZWZmOTYwNGVhYjAzNDg4MjNiYTM2EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1WLbFk78Ma8dxGbZ4o3H4nISu0-jqIaVTj9VvJsFnsi55-H1vn0sQN9xsiU5komBkdaO48aI39ux0qLD7G13T3soCYw7m2yfgc5TliHP_zw-e-FaPEaq9_BIGcapGDqW3TprZpyomcf-UmPiuZMQkYJuiAeCpwgRbg_nr2c-5Iz0gzstCquTimU8un6Km5IgHVXVu-5jxcSrGrNmmLqkkl-BOuJQZBWYY5ucn9XzfWTOHjJZJXWEok1PwU"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "proformas/backend",
+  "description": "Sistema de Proformas y Cotizaciones de Instalaciones Técnicas - Backend API (PHP 8.2+)",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "vlucas/phpdotenv": "^5.6",
+    "dompdf/dompdf": "^3.0",
+    "phpoffice/phpspreadsheet": "^2.1",
+    "phpoffice/phpword": "^1.2",
+    "monolog/monolog": "^3.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Proformas\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Proformas\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "migrate": "php bin/migrate.php",
+    "seed": "php bin/seed.php",
+    "test": "phpunit"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

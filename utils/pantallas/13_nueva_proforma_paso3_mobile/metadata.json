@@ -1,0 +1,19 @@
+{
+  "id": "2c4f26d84d364623b42aca5c641df1bb",
+  "name": "projects/6256314497810013108/screens/2c4f26d84d364623b42aca5c641df1bb",
+  "title": "Nueva Proforma: Paso 3 Servicios y Mano de Obra (Smartphone) · Neumorphism",
+  "folder": "13_nueva_proforma_paso3_mobile",
+  "deviceType": "MOBILE",
+  "width": "780",
+  "height": "3868",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 25892,
+  "screenshotSize": 42709,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMTIyYTdhNjYwMjhmMDk5OGY1MGE5YzdkEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UJaqshdsdZoWMc82fRg4JB8c3mceF9VN6JwZN2rROTKklIK_dVV8odJXBmL3mKsWvEbh4A1JRH1Us8LOOpmX0tNZWhRexYutI7wcDT6v3KHRzHZvcKPeIvi5Xeh230dNX17_9f9K805AjrRc2aEBoVqZ49EwhkWrLRwn1bU3UKdbf_Lq8fURD2wdbX_LF8iJtMOvReu314x6fO1xGhVNphpNsOemNlcSOQnMCAFHbVBftXxEtQ7EFCcQ"
+  }
+}

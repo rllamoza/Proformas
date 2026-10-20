@@ -1,0 +1,19 @@
+{
+  "id": "05abb0c6e03049dba3977aa2c8d68026",
+  "name": "projects/6256314497810013108/screens/05abb0c6e03049dba3977aa2c8d68026",
+  "title": "Nueva Proforma: Paso 1 (Desktop) · Neumorphism",
+  "folder": "08_nueva_proforma_paso1_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "2564",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 39206,
+  "screenshotSize": 138026,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZjZhNWNmZTEwNGVhYjAzNDg4MjNiYTM2EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UoZOKRSFsIViNojPsO_iVfDEWGxSErP90Vh8W7T67ODhhuuvonmFy8NOeNJ6jZCLIyGFki1jZ-KGG8ft-AQkqkocY6OaLyDW1NzPD4hUzu46yLmekRY4Hho7yL-tEyg1YnPs5FF29C5l8i_45_enfJpjfgobrt4XUtku7FdhU1oUDE6gHd4zZ77sBL2jeh3w5KwdOdjrJo6v7DNNIUztmi2CfZfHAukVybkgKVQ9O9291GwoSacc7Sy8o"
+  }
+}

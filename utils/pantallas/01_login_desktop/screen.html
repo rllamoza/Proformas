@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_blank" name="shell-type"/><title>Proformas Instalaciones - Autenticación</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-variant": "#dde3eb", "secondary-fixed-dim": "#ffb595", "primary-fixed": "#d9e2ff", "on-primary": "#ffffff", "primary-fixed-dim": "#b7c6ed", "error-container": "#ffdad6", "inverse-primary": "#b7c6ed", "secondary-container": "#ff752b", "surface-dim": "#d4dbe2", "on-tertiary-fixed": "#271900", "on-error-container": "#93000a", "inverse-surface": "#2b3137", "on-secondary-fixed": "#351000", "on-primary-container": "#8392b6", "on-tertiary-fixed-variant": "#5a4318", "on-secondary-fixed-variant": "#7c2e00", "surface-container-low": "#eef4fc", "surface-tint": "#505e80", "primary-container": "#1b2a49", "on-surface-variant": "#45464e", "on-error": "#ffffff", "on-primary-fixed-variant": "#384667", "on-tertiary": "#ffffff", "surface-container-high": "#e3e9f1", "on-secondary-container": "#5f2200", "surface-container-lowest": "#ffffff", "primary": "#041533", "tertiary-container": "#3b2700", "on-primary-fixed": "#0a1b39", "error": "#ba1a1a", "tertiary-fixed": "#ffdeab", "on-secondary": "#ffffff", "on-surface": "#161c22", "on-background": "#161c22", "tertiary": "#211400", "surface-container-highest": "#dde3eb", "surface-bright": "#f6f9ff", "secondary": "#a23f00", "outline": "#75777e", "surface": "#f6f9ff", "inverse-on-surface": "#ebf1f9", "tertiary-fixed-dim": "#e4c18b", "on-tertiary-container": "#ac8d5b", "background": "#f6f9ff", "outline-variant": "#c5c6cf", "secondary-fixed": "#ffdbcd", "surface-container": "#e8eef6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "margin-mobile": "1rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "gutter": "1.5rem", "gutter-sm": "1rem", "margin": "2rem", "space-md": "1rem" }, "fontFamily": { "headline-lg-mobile": ["Inter"], "body-md": ["Inter"], "label-md": ["Inter"], "display-lg": ["Inter"], "headline-lg": ["Inter"], "body-lg": ["Inter"], "headline-sm": ["Inter"], "body-sm": ["Inter"], "numeric-currency-lg": ["Inter"], "title-md": ["Inter"], "headline-md": ["Inter"], "label-sm": ["Inter"], "numeric-currency-md": ["Inter"] }, "fontSize": { "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "500" }], "display-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "numeric-currency-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "title-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "numeric-currency-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen flex flex-col justify-between selection:bg-secondary-fixed selection:text-on-secondary-fixed"><main class="w-full flex-1 flex items-center justify-center p-margin-mobile md:p-margin"><div class="flex flex-col w-full items-center justify-center py-space-sm sm:py-space-lg">
+<!-- Subtle Neumorphic Background Canvas Layer -->
+<div class="w-full max-w-lg mx-auto relative px-space-xs sm:px-space-md">
+<!-- Ambient Depth Blur (Light source top-left) -->
+<div class="absolute -top-12 -left-12 w-64 h-64 bg-surface-container-lowest/70 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute -bottom-10 -right-10 w-72 h-72 bg-surface-variant/40 rounded-full blur-2xl pointer-events-none -z-10"></div>
+<!-- Main Extruded Neumorphic Card -->
+<div class="w-full bg-[#E5EBF2] p-space-lg sm:p-space-xl rounded-[28px] transition-all duration-300" style="box-shadow: -14px -14px 28px #ffffff, 14px 14px 28px #cbd5e1;">
+<!-- Header: Neumorphic Dual-Icon Badge & System Branding -->
+<div class="flex flex-col items-center text-center mb-space-lg">
+<!-- Extruded Circular Emblem with router & security camera cues -->
+<div class="relative w-20 h-20 rounded-full bg-[#E5EBF2] flex items-center justify-center mb-space-md group transition-transform duration-200" style="box-shadow: -6px -6px 14px #ffffff, 6px 6px 14px #cbd5e1;">
+<!-- Inner Concave Well for Icons -->
+<div class="w-14 h-14 rounded-full bg-[#E5EBF2] flex items-center justify-center relative" style="box-shadow: inset -2px -2px 5px #ffffff, inset 2px 2px 5px #cbd5e1;">
+<!-- Router Symbol -->
+<span class="material-symbols-outlined text-primary-container absolute -translate-x-1.5 -translate-y-1 text-[22px] transition-transform duration-300 group-hover:scale-105" title="Redes &amp; Routers">
+              router
+            </span>
+<!-- CCTV Security Camera Symbol -->
+<span class="material-symbols-outlined text-secondary-container absolute translate-x-2 translate-y-1.5 text-[20px] transition-transform duration-300 group-hover:scale-110" style="font-variation-settings: 'FILL' 1;" title="Cámaras de Seguridad CCTV">
+              videocam
+            </span>
+</div>
+<!-- Micro Status Beacon indicating server connection in Peru -->
+<span class="absolute top-1 right-1 w-3 h-3 bg-secondary-container rounded-full ring-2 ring-[#E5EBF2]" style="box-shadow: 0 0 8px rgba(255, 117, 43, 0.7);"></span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary-container tracking-tight">
+          Proformas Instalaciones
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          Sistema de Cotización y Gestión Técnica
+        </p>
+</div>
+<!-- Authentication Form -->
+<form class="space-y-space-md" id="loginForm" onsubmit="event.preventDefault(); triggerAuthFeedback();">
+<!-- Field 1: Correo Electrónico Institucional -->
+<div class="flex flex-col space-y-1.5">
+<label class="font-label-md text-label-md text-primary-container font-semibold flex items-center justify-between" for="email">
+<span>Correo institucional</span>
+<span class="font-label-sm text-label-sm text-outline font-normal">Dominio corporativo</span>
+</label>
+<div class="relative flex items-center rounded-xl bg-[#E5EBF2] transition-all duration-200 focus-within:ring-2 focus-within:ring-secondary-container/40" style="box-shadow: inset 4px 4px 8px #cbd5e1, inset -4px -4px 8px #ffffff;">
+<div class="pl-space-md text-on-surface-variant flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-[20px] text-outline">alternate_email</span>
+</div>
+<input autocomplete="username" class="w-full bg-transparent px-space-md py-3 text-on-surface font-body-md text-body-md placeholder-outline/70 focus:outline-none" id="email" name="email" placeholder="nombre@instalaciones.pe" required="" type="email" value="carlos.mendoza@instalaciones.pe"/>
+</div>
+</div>
+<!-- Field 2: Contraseña con Toggle Interactivo -->
+<div class="flex flex-col space-y-1.5">
+<label class="font-label-md text-label-md text-primary-container font-semibold" for="password">
+            Contraseña
+          </label>
+<div class="relative flex items-center rounded-xl bg-[#E5EBF2] transition-all duration-200 focus-within:ring-2 focus-within:ring-secondary-container/40" style="box-shadow: inset 4px 4px 8px #cbd5e1, inset -4px -4px 8px #ffffff;">
+<div class="pl-space-md text-on-surface-variant flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-[20px] text-outline">lock</span>
+</div>
+<input autocomplete="current-password" class="w-full bg-transparent px-space-md py-3 text-on-surface font-body-md text-body-md placeholder-outline/70 focus:outline-none" id="password" name="password" placeholder="••••••••••••" required="" type="password" value="TecnicoSeguro2024*"/>
+<!-- Neumorphic Soft Eye Toggle Button -->
+<button aria-label="Mostrar u ocultar contraseña" class="mr-2 p-2 rounded-lg bg-[#E5EBF2] text-outline hover:text-primary transition-all duration-150 flex items-center justify-center active:scale-95" id="togglePassword" onclick="togglePassVisibility()" style="box-shadow: -2px -2px 5px #ffffff, 2px 2px 5px #cbd5e1;" type="button">
+<span class="material-symbols-outlined text-[18px]" id="eyeIcon">visibility</span>
+</button>
+</div>
+</div>
+<!-- Utility Row: Neumorphic Checkbox & Reset Password -->
+<div class="flex items-center justify-between pt-1">
+<label class="flex items-center cursor-pointer select-none space-x-2.5">
+<input checked="" class="hidden peer" id="rememberMe" type="checkbox"/>
+<!-- Neumorphic Custom Inset Well Checkbox -->
+<div class="w-5 h-5 rounded-md bg-[#E5EBF2] flex items-center justify-center transition-all duration-200 peer-checked:shadow-none" style="box-shadow: inset 2px 2px 4px #cbd5e1, inset -2px -2px 4px #ffffff;">
+<!-- Embedded Active Pill -->
+<div class="w-3 h-3 rounded-sm bg-secondary-container transform scale-0 peer-checked:scale-100 transition-transform duration-150 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-on-primary text-[11px] font-bold">check</span>
+</div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant select-none">Recordar sesión</span>
+</label>
+<a class="font-body-sm text-body-sm text-secondary hover:text-secondary-container transition-colors duration-150 underline decoration-secondary-container/40 underline-offset-4" href="#">
+            ¿Olvidaste tu contraseña?
+          </a>
+</div>
+<!-- Main Action Button: Relieve Suave con Acento Naranja (Neumórfico Extruido) -->
+<div class="pt-space-xs">
+<button class="w-full py-3.5 px-space-lg rounded-xl bg-gradient-to-r from-[#F26B21] to-[#ff752b] text-on-primary font-headline-sm text-headline-sm flex items-center justify-center space-x-2 transition-all duration-150 active:translate-y-0.5" id="submitBtn" onmousedown="this.style.boxShadow='inset 3px 3px 6px rgba(0,0,0,0.3), inset -3px -3px 6px rgba(255,255,255,0.2)'" onmouseleave="this.style.boxShadow='-5px -5px 12px rgba(255, 255, 255, 0.8), 5px 5px 16px rgba(242, 107, 33, 0.45)'" onmouseup="this.style.boxShadow='-5px -5px 12px rgba(255, 255, 255, 0.8), 5px 5px 16px rgba(242, 107, 33, 0.45)'" style="box-shadow: -5px -5px 12px rgba(255, 255, 255, 0.8), 5px 5px 16px rgba(242, 107, 33, 0.45);" type="submit">
+<span>Ingresar al sistema</span>
+<span class="material-symbols-outlined text-[20px] transition-transform duration-150 group-hover:translate-x-1">arrow_forward</span>
+</button>
+</div>
+</form>
+<!-- Alert / Validation Feedback (Neumorphic Inset Strip with High-Contrast Accessible Danger Text) -->
+<div class="mt-space-md p-space-sm bg-[#E5EBF2] rounded-xl flex items-start space-x-3 transition-opacity duration-300" id="alertBox" style="box-shadow: inset 3px 3px 6px #cbd5e1, inset -3px -3px 6px #ffffff;">
+<div class="p-1.5 rounded-lg bg-error-container text-error flex items-center justify-center shrink-0" style="box-shadow: 1px 1px 3px #cbd5e1, -1px -1px 3px #ffffff;">
+<span class="material-symbols-outlined text-[18px]">error</span>
+</div>
+<div class="flex-1 min-w-0 pt-0.5">
+<p class="font-label-sm text-label-sm text-error uppercase font-bold tracking-wider">Aviso de seguridad</p>
+<p class="font-body-sm text-body-sm text-on-error-container mt-0.5">
+            Credenciales no válidas. Por favor verifique su correo o contraseña institucional.
+          </p>
+</div>
+<button class="text-outline hover:text-on-surface p-1" onclick="document.getElementById('alertBox').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[16px]">close</span>
+</button>
+</div>
+<!-- Quick Role Quick-Switch / Demo Assistance Bar -->
+<div class="mt-space-lg pt-space-md flex flex-col space-y-2.5" style="box-shadow: inset 0 1px 0 rgba(203, 213, 225, 0.8), 0 1px 0 rgba(255, 255, 255, 0.9);">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider text-center">Acceso rápido según rol</span>
+<div class="grid grid-cols-3 gap-2">
+<!-- Role Button 1: Vendedor -->
+<button class="py-1.5 px-2 rounded-lg bg-[#E5EBF2] text-primary-container font-label-sm text-label-sm hover:text-secondary-container transition-all text-center truncate active:translate-y-0.5" onclick="setRole('vendedor@instalaciones.pe')" style="box-shadow: -2px -2px 5px #ffffff, 2px 2px 5px #cbd5e1;" type="button">
+            Ventas
+          </button>
+<!-- Role Button 2: Técnico -->
+<button class="py-1.5 px-2 rounded-lg bg-[#E5EBF2] text-primary-container font-label-sm text-label-sm hover:text-secondary-container transition-all text-center truncate active:translate-y-0.5" onclick="setRole('tecnico.campo@instalaciones.pe')" style="box-shadow: -2px -2px 5px #ffffff, 2px 2px 5px #cbd5e1;" type="button">
+            Técnico
+          </button>
+<!-- Role Button 3: Gerencia -->
+<button class="py-1.5 px-2 rounded-lg bg-[#E5EBF2] text-primary-container font-label-sm text-label-sm hover:text-secondary-container transition-all text-center truncate active:translate-y-0.5" onclick="setRole('gerencia@instalaciones.pe')" style="box-shadow: -2px -2px 5px #ffffff, 2px 2px 5px #cbd5e1;" type="button">
+            Gerencia
+          </button>
+</div>
+</div>
+<!-- Card Footer: System Metadata & Currency Reference -->
+<div class="mt-space-md text-center">
+<p class="font-label-sm text-label-sm text-outline tracking-normal">
+          Plataforma adaptada para Vendedores, Técnicos y Gerencia • v2.4 Perú (S/)
+        </p>
+</div>
+</div>
+<!-- Security & Compliance Subtext Outside Main Card -->
+<div class="mt-space-md flex items-center justify-center space-x-2 text-outline">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+<span class="font-label-sm text-label-sm tracking-wide">Transmisión encriptada SSL 256-bit • RUC 20601234567</span>
+</div>
+</div>
+</div>
+<script>
+  function togglePassVisibility() {
+    const passInput = document.getElementById('password');
+    const eyeIcon = document.getElementById('eyeIcon');
+    if (passInput.type === 'password') {
+      passInput.type = 'text';
+      eyeIcon.textContent = 'visibility_off';
+    } else {
+      passInput.type = 'password';
+      eyeIcon.textContent = 'visibility';
+    }
+  }
+
+  function setRole(email) {
+    const emailField = document.getElementById('email');
+    emailField.value = email;
+    // Animate subtle focus
+    emailField.focus();
+  }
+
+  function triggerAuthFeedback() {
+    const alertBox = document.getElementById('alertBox');
+    alertBox.classList.remove('hidden');
+    // Subtle shake animation
+    alertBox.animate([
+      { transform: 'translateX(-4px)' },
+      { transform: 'translateX(4px)' },
+      { transform: 'translateX(-2px)' },
+      { transform: 'translateX(0)' }
+    ], {
+      duration: 250,
+      iterations: 1
+    });
+  }
+</script></main><footer class="w-full py-space-md text-center bg-transparent"><p class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">Proformas Instalaciones • Entorno Seguro de Cotización Técnica</p></footer></body></html>

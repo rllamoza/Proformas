@@ -1,0 +1,363 @@
+[
+  {
+    "id": "fedb065687094c8990e76a2d608188e1",
+    "name": "projects/6256314497810013108/screens/fedb065687094c8990e76a2d608188e1",
+    "title": "Inicio de sesión · Neumorphism",
+    "folder": "01_login_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "2048",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 16506,
+    "screenshotSize": 42555,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkYzlkZjVkM2MwMjA3YTJiNDE1MDU0ZWNjEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1VCGin_eQenihmwqkAFaFkaByUAWEaZ-rlUpDtLS2DtLFs-x408ApxzllVYg1zJ5ORcWbr-ixJ2b6eCZ7mktg3RT_ebZq6nAlgLbUdbQN9TglssF8fXnbisLlMwnQx04HqcgPIenYV38ipKuYBt9AQNu8zKgX9Rdu3b_vviI44uNzvU276CI6i3xO0_1gTebqDAneCCBHDyggHvt9IbSfiqaC3BQO7xDqW6j3BYmFazgOAywpu9mYjOtw"
+    }
+  },
+  {
+    "id": "4681e0a1726948e68f84f46de08b8d01",
+    "name": "projects/6256314497810013108/screens/4681e0a1726948e68f84f46de08b8d01",
+    "title": "Inicio / Panel de Gerencia · Neumorphism",
+    "folder": "02_dashboard_gerencia_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "2724",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 46576,
+    "screenshotSize": 124263,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZDM3ZWZmOTYwNGVhYjAzNDg4MjNiYTM2EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1WLbFk78Ma8dxGbZ4o3H4nISu0-jqIaVTj9VvJsFnsi55-H1vn0sQN9xsiU5komBkdaO48aI39ux0qLD7G13T3soCYw7m2yfgc5TliHP_zw-e-FaPEaq9_BIGcapGDqW3TprZpyomcf-UmPiuZMQkYJuiAeCpwgRbg_nr2c-5Iz0gzstCquTimU8un6Km5IgHVXVu-5jxcSrGrNmmLqkkl-BOuJQZBWYY5ucn9XzfWTOHjJZJXWEok1PwU"
+    }
+  },
+  {
+    "id": "c1be98297b9544c8932489b26adc457c",
+    "name": "projects/6256314497810013108/screens/c1be98297b9544c8932489b26adc457c",
+    "title": "Panel de Gerencia (Smartphone) · Neumorphism",
+    "folder": "03_dashboard_gerencia_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "3292",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 28495,
+    "screenshotSize": 50269,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlM2FiZmViMzkwMjA3ODQ1MDYxMWEzMjIxEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1V97oimkdNr27CUaPIvSV1UA0KNaUlukok1U4EzmnmvvhrXaogPQawMJEZtaj3yJwnKy4CvYW1rl8d6hRsRDRuqXy4ln9Dt0bVXSxD3wPMNZNVZikqkC0LrShSOPcXu7F_bF9dUY9YIyZd-h6gP_DRAFCOOd4ot75MAx_sxg9keV7_Yb6s61HnLJkUv0CXuLbkrOnuO-qtO3uNoRlWy1aAYgq4ACIpAYybDWx0mqoVnDUcSbMfozYCzmWE"
+    }
+  },
+  {
+    "id": "404542bc048c4617b918ea3d224e4ab7",
+    "name": "projects/6256314497810013108/screens/404542bc048c4617b918ea3d224e4ab7",
+    "title": "Inicio (Vendedor) (Desktop) · Neumorphism",
+    "folder": "04_dashboard_vendedor_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "2676",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 49075,
+    "screenshotSize": 131950,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlNjFkNzEzYjEwNGVhYjAzNDg4MjNiYTM2EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1Vw7KStW-t9IRTZ_3DK_uPLBjr7CWKNtWWnwOcx9Tcs7NWqeD5owVifIhI7MqJWyfJnickNtbmdQa7Brylk5ZulJzkV2Knh0akhGlw3S-4dQ2gvb1RBMZkViLbVMpoc1fu2nnKUKDECJy8XNmuND3XPpF_0Sj_tCQdYThwT_VhGyMlgS0rZEVJ7qIMoV795FLZhhhrVt4YAfqj7_8ADQw6aownkw3XgSc1VqU_BcEcwz_eojXrIIAE7MYE"
+    }
+  },
+  {
+    "id": "f378d6c4099440f3adfa5bcf3c376e93",
+    "name": "projects/6256314497810013108/screens/f378d6c4099440f3adfa5bcf3c376e93",
+    "title": "Inicio (Vendedor) · Neumorphism",
+    "folder": "05_dashboard_vendedor_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "3238",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 24543,
+    "screenshotSize": 49088,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZGMxM2Q5ZDYwOTI1YzdhOGQ4MDY4NTdiEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1X1sF6s6blOF3S9u3tWBzLXNjCTrQGlmQYgR1yIpb9Uj-wfTE17JNKS3K_78EsG-obc9s9YTFgmYFLGEE1mc7_Doy4lObUwxqi_AjKoOks5q8_Hxn_gyKioR9BdQrJ50DDaFDovFdH0mS-k2yB2fdnUBbNp1oICIb0QkE3Xg7g_LpQbWxb4Ka16f5rHRb5hREKi-tt6kAwQ9t2t4cb3IW13BByiijlZshCIP6oInR-TiSnvHVd_yDDJtw"
+    }
+  },
+  {
+    "id": "69277500b0c54c92ab5303a7ead960ef",
+    "name": "projects/6256314497810013108/screens/69277500b0c54c92ab5303a7ead960ef",
+    "title": "Lista de Proformas · Neumorphism",
+    "folder": "06_lista_proformas_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "3488",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 58744,
+    "screenshotSize": 84987,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZTg0MTdkZTgwMmE5OTYxZDgzMzA4NmYxEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UNyncx81kY_Gy2y4azKKYgyxcPI-VNXu7KQ7EuFZsraO-dxcjGiDR4VmCXEkUMyFJVAl0AioybF9VoKSB3dEdc7N4YTj_ACqaH9FkDGJzNA1XB09ZdKPJi7Ud2CG-OyIDuxSN7a0J-2gCzlnY933KYK8qS1DbVos1iLzBVPYLKcjdMyYS5ibjbNAbJA57lzOzKd42UiH697ypVW4jHrkJzQrs_MAdyB9XrlERdI_GWhDkUUKijDhm2258"
+    }
+  },
+  {
+    "id": "a3f7842f9dff42dc8ef9842da8d1725f",
+    "name": "projects/6256314497810013108/screens/a3f7842f9dff42dc8ef9842da8d1725f",
+    "title": "Lista de Proformas (Smartphone) · Neumorphism",
+    "folder": "07_lista_proformas_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "3656",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 30365,
+    "screenshotSize": 40826,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZjU2YzFlY2IwOTFmN2VhNjRiMzU0NjhlEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1V8Rkp_csW6EY4WUKzTyulQhfd0UnIrTBUY90uAoXREKp7eQO-ov0WrvxzDTneGf8pn0myLUMVsBMSB3ApEBJom0knRK5a4CVfP8busVK5IsaE9t2QlgJ318uLd2EjVVS74VFjbCudHArmrASxaPm6A3fPP-di0Kw0F2pE7JD8wE3Z30_QHIYe9g5jQlo3Zwj-FfzwMOOUhG7IXpOfd30KUqlLy-ITSCrrDKBuZf0lzwF61PG7zLZVlSUo"
+    }
+  },
+  {
+    "id": "05abb0c6e03049dba3977aa2c8d68026",
+    "name": "projects/6256314497810013108/screens/05abb0c6e03049dba3977aa2c8d68026",
+    "title": "Nueva Proforma: Paso 1 (Desktop) · Neumorphism",
+    "folder": "08_nueva_proforma_paso1_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "2564",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 39206,
+    "screenshotSize": 138026,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkZjZhNWNmZTEwNGVhYjAzNDg4MjNiYTM2EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UoZOKRSFsIViNojPsO_iVfDEWGxSErP90Vh8W7T67ODhhuuvonmFy8NOeNJ6jZCLIyGFki1jZ-KGG8ft-AQkqkocY6OaLyDW1NzPD4hUzu46yLmekRY4Hho7yL-tEyg1YnPs5FF29C5l8i_45_enfJpjfgobrt4XUtku7FdhU1oUDE6gHd4zZ77sBL2jeh3w5KwdOdjrJo6v7DNNIUztmi2CfZfHAukVybkgKVQ9O9291GwoSacc7Sy8o"
+    }
+  },
+  {
+    "id": "dfeac30d95a8470a9d6c5524db4fcae1",
+    "name": "projects/6256314497810013108/screens/dfeac30d95a8470a9d6c5524db4fcae1",
+    "title": "Nueva Proforma: Paso 1 (Smartphone) · Neumorphism",
+    "folder": "09_nueva_proforma_paso1_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "3238",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 26011,
+    "screenshotSize": 50854,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMDE2NTdlNjEwN2M0ZDIzODkzMDAxYjFhEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1VmoeEXlqSv3d_ehf4l7cLeakD0ivPMRYcqK9rx5jheKHJAPhsAzPbxHIgJCT-WBPBYFoFudHjdOtyNNJaK0q2uzbuoXOoFCrJ81DlTk1lR-iNSe1NwXV1nSRfUtib11P_eMA534qX82rkYohLnxCtexBBbK4CxRtlfmyYbkF01cHIfLeumiL5sk2oGwxRNQleXKmeLPSO3t4QZT7nLkEtp4MEo_q0-QNiOSs5Z9z4frd5VW_2ONrQBEQ"
+    }
+  },
+  {
+    "id": "b2888d703d1244f7b7258906a6cc8df0",
+    "name": "projects/6256314497810013108/screens/b2888d703d1244f7b7258906a6cc8df0",
+    "title": "Nueva Proforma: Paso 2 Zonas y Equipos (Desktop) · Neumorphism",
+    "folder": "10_nueva_proforma_paso2_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "3022",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 47630,
+    "screenshotSize": 124575,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMDkzNGI4OGEwMjhmMDk5YTEyMDZiMGEzEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UBza_gpJJuVkdiXGMnLHANZn9_Gz0_FnYCuIygkoXYNnMcBP-ij4O1lCy8qspzdWb2vd42LcCg2q0prMwr_EBjuu_FUEV_bUhRW08EWjUwyx74wSyLX5bAZAWlGkpXxlE19lJCqoIk3Ib5V4CEvicz66JElse0GMAOKpVYCuodWrZnkJQyOolp7X9N9cRvSVgz5PTGfp94N1ppGmJX-RlsMnljKoktMqyp_Y_JsR5QOt3w0TQNHbHs8jI"
+    }
+  },
+  {
+    "id": "721dc9a62c1147408a7486e0c73e27e5",
+    "name": "projects/6256314497810013108/screens/721dc9a62c1147408a7486e0c73e27e5",
+    "title": "Nueva Proforma: Paso 2 Zonas y Equipos (Smartphone) · Neumorphism",
+    "folder": "11_nueva_proforma_paso2_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "3158",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 29120,
+    "screenshotSize": 51525,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMDgwYTQwNWIwMWE2M2U2YmU3MzljYzAwEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1V5bc8OdKzugyM__cIR5s0ymhm0TddjgQBwyjWvBT77Ss6t2OG8CCihdFEBq5xDiiTkNkiFI27G4d2pV-wpZXCooI-r6USZuALrP2kJtFMKao2rbNrJtqOKKvKV-hkmWM3EudUK2iO6_KyeskIh7QVlYn2CJUD4qOLgVUz2x9IIy8qzyPKns2q5LZFSyNmXfTM0Oi2dl_-DAJmGxVZ359WL7WMhLyzt0_ScLk2uqDO_Jn5aP3FMQ2yek4I"
+    }
+  },
+  {
+    "id": "cb667b94723542ba81c430ed18fe1c6b",
+    "name": "projects/6256314497810013108/screens/cb667b94723542ba81c430ed18fe1c6b",
+    "title": "Nueva Proforma: Paso 3 Servicios y Mano de Obra (Desktop) · Neumorphism",
+    "folder": "12_nueva_proforma_paso3_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "3784",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 53339,
+    "screenshotSize": 105680,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMTRmMjI1MzIwOTI1Yzc4YTg5MDgyNzVjEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1XeiimzA-qVOC_Bo13e5h4-rzmJouW2IGwjWwFvAHDjukyQgOd-R-uAPCYRqA3QmjihiMy91U4-sdzuG0Eg77MTIWIRcJq3UtiQO2G8VYfF6Dqu5-vHbCjURpEcCeMc4nAot_IcQJK0bJOSP0uK3lOsLAo0_4Jqk2DmLUGqzWTzdHZUVIuw5YbrEa_LGHWMmvbHgp70f022Z9PlnN1a7wfD3-ppTeVvyi76OCLBWTZYNVG4DEmS1_MuNjE"
+    }
+  },
+  {
+    "id": "2c4f26d84d364623b42aca5c641df1bb",
+    "name": "projects/6256314497810013108/screens/2c4f26d84d364623b42aca5c641df1bb",
+    "title": "Nueva Proforma: Paso 3 Servicios y Mano de Obra (Smartphone) · Neumorphism",
+    "folder": "13_nueva_proforma_paso3_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "3868",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 25892,
+    "screenshotSize": 42709,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMTIyYTdhNjYwMjhmMDk5OGY1MGE5YzdkEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UJaqshdsdZoWMc82fRg4JB8c3mceF9VN6JwZN2rROTKklIK_dVV8odJXBmL3mKsWvEbh4A1JRH1Us8LOOpmX0tNZWhRexYutI7wcDT6v3KHRzHZvcKPeIvi5Xeh230dNX17_9f9K805AjrRc2aEBoVqZ49EwhkWrLRwn1bU3UKdbf_Lq8fURD2wdbX_LF8iJtMOvReu314x6fO1xGhVNphpNsOemNlcSOQnMCAFHbVBftXxEtQ7EFCcQ"
+    }
+  },
+  {
+    "id": "f67c912fbb9240c498007489dce7677b",
+    "name": "projects/6256314497810013108/screens/f67c912fbb9240c498007489dce7677b",
+    "title": "Nueva Proforma: Paso 4 Resumen y Cierre (Desktop) · Neumorphism",
+    "folder": "14_nueva_proforma_paso4_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "3402",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 40928,
+    "screenshotSize": 104692,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMjYyMmJlNjIwNTNiNzNkMDg0MjM0NjU4EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1W02RiXgfWgE9KX8Pd4FuiWFBIDp3GUiW_Km8nDxRCcRLeDZy92kwshUufF9h0C4uEyE4RdkmgPo26ngr0RYTiljU4E1IhsFNeMcvbrdlSTZpiKKV73-00ltpWzKQEFqoANVGR3l3O9r6dJs7LMHEGAqzIKv1R3rX-Cq7hEe7kNHtfEiJslp3B4acsKEI0IgIXoXBs9Ud3KXs1zDiPYu3IeoHvXUzboz0oOj8NeuPpim_nJctenNmB9zMI"
+    }
+  },
+  {
+    "id": "1cd04ad3d5284ac4aa7c6491140bbf9c",
+    "name": "projects/6256314497810013108/screens/1cd04ad3d5284ac4aa7c6491140bbf9c",
+    "title": "Nueva Proforma: Paso 4 Resumen y Cierre (Smartphone) · Neumorphism",
+    "folder": "15_nueva_proforma_paso4_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "2818",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 20755,
+    "screenshotSize": 46399,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMjQ4ZDU4YWIwNTIyOTQ1ODc3Mjg3MjYwEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1WMasGD3_RmGGYSU5XEyir3btQ8C-X8ppcL77egSV1wz5w0mWbudj54YSJE3ZhTqZju3P4uhBkbw161x3SqqdurrHMNu3HNURZwglk2pS2SDHADrEtAQXWPS5MWmoj_omZS7m3fqTKtgbgti9ZrJIhukGzE4lffAcc6vn93sMbMj5LLDgM27eEjzh26NiWyrv3tcakTD9S-jo5MYgKoIJfR7-pUgLSgBcKH4-eDBfejV9O16AAZS7jmwQg"
+    }
+  },
+  {
+    "id": "1499b1534ae94ea79e5ab4b2011f543a",
+    "name": "projects/6256314497810013108/screens/1499b1534ae94ea79e5ab4b2011f543a",
+    "title": "Catálogo Técnico y Detalle de Equipos (Desktop) · Neumorphism",
+    "folder": "16_catalogo_tecnico_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "2748",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 42685,
+    "screenshotSize": 122389,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlM2M2ZWExYjUwNGVhYjAzNDg4MjNiYTM2EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1VST-Cl_rdQgrNx4qA2wAHGHmOyaI5Z8Sbw0RFQEMODCrxBXvpNk_-GhzMg0DGX2yicZ_HA87mEMe98aUQABeS11tyjY9pSf3DuQd96IxiqQhFtAGjnCFZHOtkzwd3ZzNdL89b71rg41UXojHC8SQTvdVZSTgj03Y9_PWqBdrktXwpe9bx1ZQ2k-bWowN_XYGNqTeAKRoxNhazgvv4kgrHdW3vf5RCVd2gS33ngS31cPEKp4DxkpqLnc-M"
+    }
+  },
+  {
+    "id": "21ce3c9d115249eaa757bb786e74b9ce",
+    "name": "projects/6256314497810013108/screens/21ce3c9d115249eaa757bb786e74b9ce",
+    "title": "Catálogo Técnico y Detalle de Equipos (Smartphone) · Neumorphism",
+    "folder": "17_catalogo_tecnico_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "3350",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 28243,
+    "screenshotSize": 50075,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlNDUzNTZkODcwMWE2M2U5MTBjMzI5N2ZjEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1XVVPLlR7_3l0Elbt66lCFNtxTXQBVYpVZlXKddJYeCZnMVVDasTzaUoMy8gTwRtrKcoV01_m1Lw3revjmhrMeZiCcVB-TtzxxRCpzj1J6ExC2E7n3xBqux4JRGC72kHsUN2llUCScCDuoxrLanui2QVI5_nhYLeY3cIU0q-56zhT6-oKP6WEd1olHJ86_9zR9lw_ZdUBIGN0mELHrvjhv3WrgL8j22dXNMNGxqMvRq57UpKbg5YvTg6w"
+    }
+  },
+  {
+    "id": "63620aba5ff3452391f578e36ddcf9a2",
+    "name": "projects/6256314497810013108/screens/63620aba5ff3452391f578e36ddcf9a2",
+    "title": "Reportes Financieros y SUNAT (Desktop) · Neumorphism",
+    "folder": "18_reportes_financieros_desktop",
+    "deviceType": "DESKTOP",
+    "width": "2560",
+    "height": "3592",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 50676,
+    "screenshotSize": 88606,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlNWFmODA4OTkwMWE2Mjk0OThkMWYxY2IxEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UYPdXEcwPiUn-W2eNYs-_Uq2WwA80XHd_ECpbYxhVI4SxxPtZgBuGlckSTBw5080SgwxXzTfXRz7IsaWSuavR3KzEG2Aw0GG9H-DBH3DImEi6CsaTZ8Ams1EcHoTDgB74A-YFbAGm8_7AztxkLa0F4ay-Ql2-sYbdHCxfyEg0_J7lo6Zo10_X9h2xBUjWd_3v0Eg0VgeRE1TT9HZP0xkclqQMCy5lFAoyqbob-S_913-PNX5oTDMqDTg"
+    }
+  },
+  {
+    "id": "df17eb3d321b430cb24d98c448578915",
+    "name": "projects/6256314497810013108/screens/df17eb3d321b430cb24d98c448578915",
+    "title": "Reportes Financieros y SUNAT (Smartphone) · Neumorphism",
+    "folder": "19_reportes_financieros_mobile",
+    "deviceType": "MOBILE",
+    "width": "780",
+    "height": "2632",
+    "screenshot": "screenshot.png",
+    "html": "screen.html",
+    "css": "styles.css",
+    "js": "script.js",
+    "htmlSize": 25820,
+    "screenshotSize": 54866,
+    "sourceUrls": {
+      "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlNTg1OGZiYWQwN2M0ZjFiNjc0MTk4NGQyEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+      "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1VG0b3u3zgaCDHwY7VS4de90WHMS93frHhtNnWv8CUEnhN4o2O0hh1_wNtNCxnbZ1HwGJAUHa94UjTOwyk4X4nIq2bSq2qUk4Z_-3DaZqe5cR_EjMoB7HKTMgWGA7h65gguH6RfVebQ0jtJvEE5N9lNl3qMbL74qAXBJI4r55bB9F_CYX1HaCVfWWv2Smr_AwUZrCKX8jB1B6_1zLf4SFCx2BqBF31D_tYMFyksY9Rp1UH8XAxzWAEQXg"
+    }
+  }
+]

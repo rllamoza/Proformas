@@ -1,0 +1,19 @@
+{
+  "id": "fedb065687094c8990e76a2d608188e1",
+  "name": "projects/6256314497810013108/screens/fedb065687094c8990e76a2d608188e1",
+  "title": "Inicio de sesión · Neumorphism",
+  "folder": "01_login_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "2048",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 16506,
+  "screenshotSize": 42555,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFkYzlkZjVkM2MwMjA3YTJiNDE1MDU0ZWNjEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1VCGin_eQenihmwqkAFaFkaByUAWEaZ-rlUpDtLS2DtLFs-x408ApxzllVYg1zJ5ORcWbr-ixJ2b6eCZ7mktg3RT_ebZq6nAlgLbUdbQN9TglssF8fXnbisLlMwnQx04HqcgPIenYV38ipKuYBt9AQNu8zKgX9Rdu3b_vviI44uNzvU276CI6i3xO0_1gTebqDAneCCBHDyggHvt9IbSfiqaC3BQO7xDqW6j3BYmFazgOAywpu9mYjOtw"
+  }
+}

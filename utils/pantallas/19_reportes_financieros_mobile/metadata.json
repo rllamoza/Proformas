@@ -1,0 +1,19 @@
+{
+  "id": "df17eb3d321b430cb24d98c448578915",
+  "name": "projects/6256314497810013108/screens/df17eb3d321b430cb24d98c448578915",
+  "title": "Reportes Financieros y SUNAT (Smartphone) · Neumorphism",
+  "folder": "19_reportes_financieros_mobile",
+  "deviceType": "MOBILE",
+  "width": "780",
+  "height": "2632",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 25820,
+  "screenshotSize": 54866,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlNTg1OGZiYWQwN2M0ZjFiNjc0MTk4NGQyEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1VG0b3u3zgaCDHwY7VS4de90WHMS93frHhtNnWv8CUEnhN4o2O0hh1_wNtNCxnbZ1HwGJAUHa94UjTOwyk4X4nIq2bSq2qUk4Z_-3DaZqe5cR_EjMoB7HKTMgWGA7h65gguH6RfVebQ0jtJvEE5N9lNl3qMbL74qAXBJI4r55bB9F_CYX1HaCVfWWv2Smr_AwUZrCKX8jB1B6_1zLf4SFCx2BqBF31D_tYMFyksY9Rp1UH8XAxzWAEQXg"
+  }
+}

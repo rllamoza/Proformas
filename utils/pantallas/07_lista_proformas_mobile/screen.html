@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>Proformas Instalaciones</title><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-container": "#8392b6", "outline-variant": "#c5c6cf", "on-tertiary-fixed-variant": "#5a4318", "surface-dim": "#d4dbe2", "on-primary-fixed-variant": "#384667", "on-error-container": "#93000a", "on-surface-variant": "#45464e", "on-tertiary-container": "#ac8d5b", "surface-container-highest": "#dde3eb", "on-primary-fixed": "#0a1b39", "on-secondary-container": "#5f2200", "primary": "#041533", "primary-fixed-dim": "#b7c6ed", "on-secondary-fixed-variant": "#7c2e00", "secondary": "#a23f00", "surface-container-low": "#eef4fc", "secondary-fixed-dim": "#ffb595", "primary-container": "#1b2a49", "tertiary-container": "#3b2700", "on-tertiary": "#ffffff", "surface-container": "#e8eef6", "inverse-primary": "#b7c6ed", "inverse-on-surface": "#ebf1f9", "tertiary-fixed-dim": "#e4c18b", "error": "#ba1a1a", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "tertiary": "#211400", "inverse-surface": "#2b3137", "surface": "#f6f9ff", "outline": "#75777e", "primary-fixed": "#d9e2ff", "on-surface": "#161c22", "secondary-container": "#ff752b", "surface-tint": "#505e80", "background": "#f6f9ff", "on-secondary": "#ffffff", "error-container": "#ffdad6", "on-tertiary-fixed": "#271900", "tertiary-fixed": "#ffdeab", "on-background": "#161c22", "on-secondary-fixed": "#351000", "surface-bright": "#f6f9ff", "surface-container-high": "#e3e9f1", "surface-variant": "#dde3eb", "secondary-fixed": "#ffdbcd", "on-error": "#ffffff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "gutter": "1.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-md": "1rem", "gutter-sm": "1rem", "margin": "2rem", "margin-mobile": "1rem", "space-sm": "0.5rem" }, "fontFamily": { "label-sm": ["Inter"], "body-lg": ["Inter"], "display-lg": ["Inter"], "body-sm": ["Inter"], "numeric-currency-md": ["Inter"], "body-md": ["Inter"], "headline-lg": ["Inter"], "headline-md": ["Inter"], "headline-lg-mobile": ["Inter"], "headline-sm": ["Inter"], "label-md": ["Inter"], "title-md": ["Inter"], "numeric-currency-lg": ["Inter"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "display-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "numeric-currency-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "500" }], "title-md": ["16px", { "lineHeight": "22px", "fontWeight": "600" }], "numeric-currency-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.neu-flat{box-shadow:-4px -4px 10px rgba(255,255,255,0.9),4px 4px 12px rgba(148,163,184,0.35);}.neu-bar{box-shadow:-6px -6px 14px rgba(255,255,255,0.85),6px 6px 14px rgba(148,163,184,0.25);}.neu-inset{box-shadow:inset -3px -3px 6px rgba(255,255,255,0.9),inset 3px 3px 6px rgba(148,163,184,0.3);}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl neu-bar"><div class="h-16 px-gutter-sm flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-11 h-11 rounded-xl bg-surface flex items-center justify-center neu-flat text-secondary-container"><span class="material-symbols-outlined text-[24px]">engineering</span></div><h1 class="font-headline-sm text-headline-sm text-primary tracking-tight">Proformas</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Notificaciones" class="w-11 h-11 rounded-xl bg-surface flex items-center justify-center neu-flat text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center neu-flat ml-space-xs"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-20 bg-surface px-gutter-sm"><div class="flex flex-col w-full gap-space-md">
+<!-- Quick Action & Title Area -->
+<div class="flex items-center justify-between gap-space-sm pt-space-xs">
+<div class="min-w-0">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Gestión Técnica</span>
+<h2 class="font-headline-md text-headline-md text-primary truncate">Cotizaciones Activas</h2>
+</div>
+<button class="flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-secondary-container text-on-secondary font-title-md text-title-md neu-flat active:neu-inset active:scale-95 transition-all flex-shrink-0" style="box-shadow: -3px -3px 8px rgba(255,255,255,0.9), 3px 3px 10px rgba(242,107,33,0.45);" type="button">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+<span>Nueva</span>
+</button>
+</div>
+<!-- Metric Glance Horizontal Scroller -->
+<div class="flex gap-space-sm overflow-x-auto pb-2 -mx-gutter-sm px-gutter-sm scrollbar-none snap-x snap-mandatory">
+<!-- Metric 1: Total -->
+<div class="min-w-[130px] flex-1 p-space-sm rounded-xl bg-surface neu-flat flex flex-col justify-between snap-start">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Total</span>
+<div class="w-6 h-6 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">receipt_long</span>
+</div>
+</div>
+<div class="mt-2">
+<div class="font-numeric-currency-lg text-numeric-currency-lg text-primary">42</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Registradas</span>
+</div>
+</div>
+<!-- Metric 2: En Gestión -->
+<div class="min-w-[130px] flex-1 p-space-sm rounded-xl bg-surface neu-flat flex flex-col justify-between snap-start">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Gestión</span>
+<div class="w-6 h-6 rounded-lg bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[16px]">pending_actions</span>
+</div>
+</div>
+<div class="mt-2">
+<div class="font-numeric-currency-lg text-numeric-currency-lg text-primary-container">14</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Enviadas</span>
+</div>
+</div>
+<!-- Metric 3: Aprobadas -->
+<div class="min-w-[130px] flex-1 p-space-sm rounded-xl bg-surface neu-flat flex flex-col justify-between snap-start">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Ganadas</span>
+<div class="w-6 h-6 rounded-lg bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+</div>
+<div class="mt-2">
+<div class="font-numeric-currency-lg text-numeric-currency-lg text-secondary">18</div>
+<span class="font-body-sm text-body-sm text-secondary font-medium">Aprobadas</span>
+</div>
+</div>
+<!-- Metric 4: Casos Críticos -->
+<div class="min-w-[130px] flex-1 p-space-sm rounded-xl bg-surface neu-flat flex flex-col justify-between snap-start">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-error font-semibold">Alerta</span>
+<div class="w-6 h-6 rounded-lg bg-error-container flex items-center justify-center text-error">
+<span class="material-symbols-outlined text-[16px]">warning</span>
+</div>
+</div>
+<div class="mt-2">
+<div class="font-numeric-currency-lg text-numeric-currency-lg text-error">5</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Revisión/Venc.</span>
+</div>
+</div>
+</div>
+<!-- Neumorphic Search & Filter Well -->
+<div class="flex items-center gap-space-xs">
+<div class="flex-1 flex items-center gap-space-xs px-space-md py-space-sm rounded-xl bg-surface neu-inset">
+<span class="material-symbols-outlined text-outline text-[20px]">search</span>
+<input class="w-full bg-transparent text-primary placeholder:text-outline font-body-md text-body-md focus:outline-none" id="filter-input" placeholder="N° proforma, cliente o distrito..." type="text"/>
+</div>
+<button aria-label="Filtros avanzados" class="w-11 h-11 flex items-center justify-center rounded-xl bg-surface text-primary neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</div>
+<!-- Segmented / Filter Chips -->
+<div class="flex gap-space-xs overflow-x-auto pb-1 -mx-gutter-sm px-gutter-sm scrollbar-none" id="status-chips">
+<button class="px-space-md py-space-xs rounded-full font-label-md text-label-md neu-inset text-secondary-container whitespace-nowrap active:scale-95 transition-all" type="button">
+      Todas (42)
+    </button>
+<button class="px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface neu-flat text-on-surface-variant hover:text-primary whitespace-nowrap active:neu-inset transition-all" type="button">
+      Enviadas (14)
+    </button>
+<button class="px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface neu-flat text-on-surface-variant hover:text-primary whitespace-nowrap active:neu-inset transition-all" type="button">
+      Aprobadas (18)
+    </button>
+<button class="px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface neu-flat text-on-surface-variant hover:text-primary whitespace-nowrap active:neu-inset transition-all" type="button">
+      En revisión (3)
+    </button>
+<button class="px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface neu-flat text-on-surface-variant hover:text-primary whitespace-nowrap active:neu-inset transition-all" type="button">
+      Vencidas (2)
+    </button>
+</div>
+<!-- Proformas Card Stack -->
+<div class="flex flex-col gap-space-md">
+<!-- Card 1: Familia Quispe Rojas -->
+<div class="w-full p-space-md rounded-xl bg-surface neu-flat flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold tracking-wider">PF-2026-0001</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">· Surco</span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-secondary font-semibold neu-inset">
+          Aprobada
+        </span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Familia Quispe Rojas</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">router</span>
+          Red WiFi Mesh 6 + Videoportero IP
+        </p>
+</div>
+<!-- Cost trench and details -->
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface neu-inset">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Monto Total (IGV)</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-secondary-container">S/ 6,992.81</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">Plazo: 2.5 d</span>
+</div>
+</div>
+<!-- Interactive Actions -->
+<div class="flex items-center justify-between pt-1">
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface neu-flat text-primary font-label-md text-label-md active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>Detalle</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Descargar PDF" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-primary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+</button>
+<button aria-label="Enviar por WhatsApp" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-secondary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 2: Condominio Las Torres -->
+<div class="w-full p-space-md rounded-xl bg-surface neu-flat flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold tracking-wider">PF-2026-0002</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">· San Isidro</span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-primary-container font-semibold neu-inset">
+          Enviada
+        </span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Condominio Las Torres</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">videocam</span>
+          CCTV 24 cámaras IP 4K + Servidor NVR
+        </p>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface neu-inset">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Monto Total (IGV)</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary">S/ 28,450.00</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">Plazo: 5.0 d</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface neu-flat text-primary font-label-md text-label-md active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>Detalle</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Descargar PDF" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-primary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+</button>
+<button aria-label="Enviar por WhatsApp" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-secondary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 3: Edificio Panorama -->
+<div class="w-full p-space-md rounded-xl bg-surface neu-flat flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2.5 h-2.5 rounded-full bg-outline"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold tracking-wider">PF-2026-0003</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">· Miraflores</span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant font-semibold neu-inset">
+          Borrador
+        </span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Edificio Panorama - Miraflores</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">security</span>
+          Sistema CCTV 16 cámaras IP perimétrico
+        </p>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface neu-inset">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Monto Total (IGV)</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary">S/ 14,200.00</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">Plazo: 3.5 d</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface neu-flat text-primary font-label-md text-label-md active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+<span>Editar</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Descargar PDF" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-primary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+</button>
+<button aria-label="Enviar por WhatsApp" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-secondary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 4: Clínica San Rafael -->
+<div class="w-full p-space-md rounded-xl bg-surface neu-flat flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold tracking-wider">PF-2026-0004</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">· La Molina</span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-primary-container font-semibold neu-inset">
+          Enviada
+        </span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Clínica San Rafael</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">lan</span>
+          Cableado estructurado Cat6A + Rack 42U
+        </p>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface neu-inset">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Monto Total (IGV)</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary">S/ 42,800.00</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">Plazo: 7.0 d</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface neu-flat text-primary font-label-md text-label-md active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>Detalle</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Descargar PDF" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-primary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+</button>
+<button aria-label="Enviar por WhatsApp" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-secondary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 5: Edificio Mirador -->
+<div class="w-full p-space-md rounded-xl bg-surface neu-flat flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2.5 h-2.5 rounded-full bg-on-tertiary-container"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold tracking-wider">PF-2026-0006</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">· Barranco</span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-on-tertiary-container font-semibold neu-inset">
+          En revisión
+        </span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Edificio Mirador</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">badge</span>
+          Control de acceso facial + Portero SIP
+        </p>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface neu-inset">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Monto Total (IGV)</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-primary">S/ 22,400.00</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="font-body-sm text-body-sm font-medium">Plazo: 4.0 d</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface neu-flat text-primary font-label-md text-label-md active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>Detalle</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Descargar PDF" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-primary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+</button>
+<button aria-label="Enviar por WhatsApp" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-secondary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 6: Colegio Los Cedros -->
+<div class="w-full p-space-md rounded-xl bg-surface neu-flat flex flex-col gap-space-sm relative">
+<div class="flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold tracking-wider">PF-2026-0007</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">· Chorrillos</span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container font-label-sm text-label-sm text-error font-semibold neu-inset">
+          Vencida
+        </span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h3 class="font-title-md text-title-md text-primary font-semibold">Colegio Los Cedros</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">wifi</span>
+          Red WiFi aulas + Firewall perimetral
+        </p>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface neu-inset">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Monto Total (IGV)</span>
+<span class="font-numeric-currency-md text-numeric-currency-md text-error">S/ 31,500.00</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">history</span>
+<span class="font-body-sm text-body-sm font-medium">Expiró hace 2d</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<button class="flex items-center gap-1 px-space-sm py-1.5 rounded-lg bg-surface neu-flat text-secondary-container font-label-md text-label-md active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">autorenew</span>
+<span>Renovar</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Descargar PDF" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-primary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+</button>
+<button aria-label="Enviar por WhatsApp" class="w-9 h-9 rounded-lg bg-surface flex items-center justify-center text-secondary-container neu-flat active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Tactile Neumorphic Pagination -->
+<div class="flex items-center justify-between py-space-sm px-space-xs">
+<button class="w-10 h-10 rounded-xl bg-surface flex items-center justify-center neu-flat text-on-surface-variant active:neu-inset disabled:opacity-40 transition-all" disabled="" type="button">
+<span class="material-symbols-outlined text-[20px]">chevron_left</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg flex items-center justify-center neu-inset text-secondary-container font-label-md text-label-md font-bold">1</span>
+<span class="w-8 h-8 rounded-lg flex items-center justify-center text-on-surface-variant font-label-md text-label-md">2</span>
+<span class="w-8 h-8 rounded-lg flex items-center justify-center text-on-surface-variant font-label-md text-label-md">3</span>
+<span class="text-outline font-label-md text-label-md">...</span>
+<span class="w-8 h-8 rounded-lg flex items-center justify-center text-on-surface-variant font-label-md text-label-md">7</span>
+</div>
+<button class="w-10 h-10 rounded-xl bg-surface flex items-center justify-center neu-flat text-primary active:neu-inset transition-all" type="button">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+</div>
+<script>
+  // Interactive chips state toggle for demonstration
+  document.querySelectorAll('#status-chips button').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('#status-chips button').forEach(b => {
+        b.className = 'px-space-md py-space-xs rounded-full font-label-md text-label-md bg-surface neu-flat text-on-surface-variant hover:text-primary whitespace-nowrap active:neu-inset transition-all';
+      });
+      button.className = 'px-space-md py-space-xs rounded-full font-label-md text-label-md neu-inset text-secondary-container whitespace-nowrap active:scale-95 transition-all';
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl neu-bar" data-active-classes="neu-inset text-secondary-container font-semibold"><div class="flex justify-around items-center h-20 px-gutter-sm"><a class="flex flex-col items-center justify-center gap-1 w-16 h-14 rounded-xl text-on-surface-variant transition-all" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px]">dashboard</span><span class="font-label-sm text-label-sm">Inicio</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-1 w-16 h-14 rounded-xl transition-all neu-inset text-secondary-container font-semibold" data-path="proformas" href="#"><span class="material-symbols-outlined text-[22px]">request_quote</span><span class="font-label-sm text-label-sm">Proformas</span></a><a class="flex flex-col items-center justify-center gap-1 w-16 h-14 rounded-xl text-on-surface-variant transition-all" data-path="catalogo" href="#"><span class="material-symbols-outlined text-[22px]">inventory_2</span><span class="font-label-sm text-label-sm">Catálogo</span></a><a class="flex flex-col items-center justify-center gap-1 w-16 h-14 rounded-xl text-on-surface-variant transition-all" data-path="mas" href="#"><span class="material-symbols-outlined text-[22px]">more_horiz</span><span class="font-label-sm text-label-sm">Más</span></a></div></nav></body></html>

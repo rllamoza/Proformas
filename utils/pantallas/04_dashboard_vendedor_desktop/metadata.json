@@ -1,0 +1,19 @@
+{
+  "id": "404542bc048c4617b918ea3d224e4ab7",
+  "name": "projects/6256314497810013108/screens/404542bc048c4617b918ea3d224e4ab7",
+  "title": "Inicio (Vendedor) (Desktop) · Neumorphism",
+  "folder": "04_dashboard_vendedor_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "2676",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 49075,
+  "screenshotSize": 131950,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlNjFkNzEzYjEwNGVhYjAzNDg4MjNiYTM2EgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1Vw7KStW-t9IRTZ_3DK_uPLBjr7CWKNtWWnwOcx9Tcs7NWqeD5owVifIhI7MqJWyfJnickNtbmdQa7Brylk5ZulJzkV2Knh0akhGlw3S-4dQ2gvb1RBMZkViLbVMpoc1fu2nnKUKDECJy8XNmuND3XPpF_0Sj_tCQdYThwT_VhGyMlgS0rZEVJ7qIMoV795FLZhhhrVt4YAfqj7_8ADQw6aownkw3XgSc1VqU_BcEcwz_eojXrIIAE7MYE"
+  }
+}

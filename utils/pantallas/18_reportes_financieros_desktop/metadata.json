@@ -1,0 +1,19 @@
+{
+  "id": "63620aba5ff3452391f578e36ddcf9a2",
+  "name": "projects/6256314497810013108/screens/63620aba5ff3452391f578e36ddcf9a2",
+  "title": "Reportes Financieros y SUNAT (Desktop) · Neumorphism",
+  "folder": "18_reportes_financieros_desktop",
+  "deviceType": "DESKTOP",
+  "width": "2560",
+  "height": "3592",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 50676,
+  "screenshotSize": 88606,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlNWFmODA4OTkwMWE2Mjk0OThkMWYxY2IxEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1UYPdXEcwPiUn-W2eNYs-_Uq2WwA80XHd_ECpbYxhVI4SxxPtZgBuGlckSTBw5080SgwxXzTfXRz7IsaWSuavR3KzEG2Aw0GG9H-DBH3DImEi6CsaTZ8Ams1EcHoTDgB74A-YFbAGm8_7AztxkLa0F4ay-Ql2-sYbdHCxfyEg0_J7lo6Zo10_X9h2xBUjWd_3v0Eg0VgeRE1TT9HZP0xkclqQMCy5lFAoyqbob-S_913-PNX5oTDMqDTg"
+  }
+}

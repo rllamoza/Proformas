@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-surface font-sans text-ink antialiased; font-variant-numeric: tabular-nums; }
+.msi { font-family: 'Material Symbols Outlined'; font-weight: normal; font-style: normal; line-height: 1; display: inline-block; font-size: 22px; }
+
+@layer components {
+  .neu { @apply bg-surface rounded-neu shadow-neu; }
+  .neu-in { @apply bg-surface rounded-xl shadow-neu-in; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-5 py-2.5 text-sm font-semibold transition active:shadow-neu-in disabled:opacity-50; }
+  .btn-primary { @apply btn bg-primary text-white shadow-neu-sm hover:bg-primary-container; }
+  .btn-accent { @apply btn bg-accent text-white shadow-neu-sm hover:brightness-105; }
+  .btn-soft { @apply btn bg-surface text-primary shadow-neu-sm; }
+  .input { @apply w-full rounded-xl bg-surface px-4 py-2.5 text-sm shadow-neu-in outline-none focus:ring-2 focus:ring-accent/50; }
+  .label { @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-muted; }
+  .badge { @apply inline-block rounded-full px-3 py-1 text-xs font-semibold; }
+}

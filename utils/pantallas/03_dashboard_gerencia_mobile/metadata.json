@@ -1,0 +1,19 @@
+{
+  "id": "c1be98297b9544c8932489b26adc457c",
+  "name": "projects/6256314497810013108/screens/c1be98297b9544c8932489b26adc457c",
+  "title": "Panel de Gerencia (Smartphone) · Neumorphism",
+  "folder": "03_dashboard_gerencia_mobile",
+  "deviceType": "MOBILE",
+  "width": "780",
+  "height": "3292",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 28495,
+  "screenshotSize": 50269,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlM2FiZmViMzkwMjA3ODQ1MDYxMWEzMjIxEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1V97oimkdNr27CUaPIvSV1UA0KNaUlukok1U4EzmnmvvhrXaogPQawMJEZtaj3yJwnKy4CvYW1rl8d6hRsRDRuqXy4ln9Dt0bVXSxD3wPMNZNVZikqkC0LrShSOPcXu7F_bF9dUY9YIyZd-h6gP_DRAFCOOd4ot75MAx_sxg9keV7_Yb6s61HnLJkUv0CXuLbkrOnuO-qtO3uNoRlWy1aAYgq4ACIpAYybDWx0mqoVnDUcSbMfozYCzmWE"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "1cd04ad3d5284ac4aa7c6491140bbf9c",
+  "name": "projects/6256314497810013108/screens/1cd04ad3d5284ac4aa7c6491140bbf9c",
+  "title": "Nueva Proforma: Paso 4 Resumen y Cierre (Smartphone) · Neumorphism",
+  "folder": "15_nueva_proforma_paso4_mobile",
+  "deviceType": "MOBILE",
+  "width": "780",
+  "height": "2818",
+  "screenshot": "screenshot.png",
+  "html": "screen.html",
+  "css": "styles.css",
+  "js": "script.js",
+  "htmlSize": 20755,
+  "screenshotSize": 46399,
+  "sourceUrls": {
+    "html": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzAwMDY1ZTFlMjQ4ZDU4YWIwNTIyOTQ1ODc3Mjg3MjYwEgsSBxDgsvvd_hoYAZIBIwoKcHJvamVjdF9pZBIVQhM2MjU2MzE0NDk3ODEwMDEzMTA4&filename=&opi=89354086",
+    "screenshot": "https://lh3.googleusercontent.com/aida/AEtjO1WMasGD3_RmGGYSU5XEyir3btQ8C-X8ppcL77egSV1wz5w0mWbudj54YSJE3ZhTqZju3P4uhBkbw161x3SqqdurrHMNu3HNURZwglk2pS2SDHADrEtAQXWPS5MWmoj_omZS7m3fqTKtgbgti9ZrJIhukGzE4lffAcc6vn93sMbMj5LLDgM27eEjzh26NiWyrv3tcakTD9S-jo5MYgKoIJfR7-pUgLSgBcKH4-eDBfejV9O16AAZS7jmwQg"
+  }
+}
